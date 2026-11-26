@@ -1,0 +1,1137 @@
+[
+  {
+    "site": "services",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Boiler maintenance",
+        "body": "Boiler maintenance. Annual service 90 USD"
+      },
+      {
+        "id": 2,
+        "title": "Обслуживание котла",
+        "body": "Обслуживание котла. Ежегодный сервис 90 USD"
+      },
+      {
+        "id": 3,
+        "title": "Network installation",
+        "body": "Network installation. Installation in two days"
+      },
+      {
+        "id": 4,
+        "title": "Монтаж сети",
+        "body": "Монтаж сети. Монтаж за два дня"
+      },
+      {
+        "id": 5,
+        "title": "Roof inspection",
+        "body": "Roof inspection. Inspection by appointment"
+      },
+      {
+        "id": 6,
+        "title": "Осмотр кровли",
+        "body": "Осмотр кровли. Осмотр по записи"
+      },
+      {
+        "id": 7,
+        "title": "Garden planning",
+        "body": "Garden planning. Planning consultation 40 USD"
+      },
+      {
+        "id": 8,
+        "title": "Планирование сада",
+        "body": "Планирование сада. Консультация 40 USD"
+      }
+    ],
+    "cases": [
+      {
+        "id": "1-01",
+        "category": "EN",
+        "query": "Boiler maintenance",
+        "source": 1,
+        "expected_facts": "Annual service 90 USD",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-02",
+        "category": "EN",
+        "query": "boiler details",
+        "source": 1,
+        "expected_facts": "Annual service 90 USD",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-03",
+        "category": "RU",
+        "query": "Обслуживание котла",
+        "source": 2,
+        "expected_facts": "Ежегодный сервис 90 USD",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-04",
+        "category": "RU",
+        "query": "котла подробнее",
+        "source": 2,
+        "expected_facts": "Ежегодный сервис 90 USD",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-05",
+        "category": "mixed",
+        "query": "цена boiler",
+        "source": 1,
+        "expected_facts": "Annual service 90 USD",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-06",
+        "category": "EN",
+        "query": "Network installation",
+        "source": 3,
+        "expected_facts": "Installation in two days",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-07",
+        "category": "EN",
+        "query": "network details",
+        "source": 3,
+        "expected_facts": "Installation in two days",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-08",
+        "category": "RU",
+        "query": "Монтаж сети",
+        "source": 4,
+        "expected_facts": "Монтаж за два дня",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-09",
+        "category": "RU",
+        "query": "сети подробнее",
+        "source": 4,
+        "expected_facts": "Монтаж за два дня",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-10",
+        "category": "mixed",
+        "query": "цена network",
+        "source": 3,
+        "expected_facts": "Installation in two days",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-11",
+        "category": "EN",
+        "query": "Roof inspection",
+        "source": 5,
+        "expected_facts": "Inspection by appointment",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-12",
+        "category": "EN",
+        "query": "roof details",
+        "source": 5,
+        "expected_facts": "Inspection by appointment",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-13",
+        "category": "RU",
+        "query": "Осмотр кровли",
+        "source": 6,
+        "expected_facts": "Осмотр по записи",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-14",
+        "category": "RU",
+        "query": "кровли подробнее",
+        "source": 6,
+        "expected_facts": "Осмотр по записи",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-15",
+        "category": "cross",
+        "query": "details кровли",
+        "source": 6,
+        "expected_facts": "Осмотр по записи",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-16",
+        "category": "EN",
+        "query": "Garden planning",
+        "source": 7,
+        "expected_facts": "Planning consultation 40 USD",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-17",
+        "category": "EN",
+        "query": "garden details",
+        "source": 7,
+        "expected_facts": "Planning consultation 40 USD",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "1-18",
+        "category": "RU",
+        "query": "Планирование сада",
+        "source": 8,
+        "expected_facts": "Консультация 40 USD",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-19",
+        "category": "RU",
+        "query": "сада подробнее",
+        "source": 8,
+        "expected_facts": "Консультация 40 USD",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "1-20",
+        "category": "cross",
+        "query": "details сада",
+        "source": 8,
+        "expected_facts": "Консультация 40 USD",
+        "locale": "en_US",
+        "expected_language": "en"
+      }
+    ]
+  },
+  {
+    "site": "blog",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Orchid care",
+        "body": "Orchid care. Water once a week"
+      },
+      {
+        "id": 2,
+        "title": "Уход за орхидеей",
+        "body": "Уход за орхидеей. Полив раз в неделю"
+      },
+      {
+        "id": 3,
+        "title": "Bicycle storage",
+        "body": "Bicycle storage. Keep indoors"
+      },
+      {
+        "id": 4,
+        "title": "Хранение велосипеда",
+        "body": "Хранение велосипеда. Хранить внутри"
+      },
+      {
+        "id": 5,
+        "title": "Sourdough recipe",
+        "body": "Sourdough recipe. Rest for twelve hours"
+      },
+      {
+        "id": 6,
+        "title": "Рецепт закваски",
+        "body": "Рецепт закваски. Выдержать двенадцать часов"
+      },
+      {
+        "id": 7,
+        "title": "Photography basics",
+        "body": "Photography basics. Use natural light"
+      },
+      {
+        "id": 8,
+        "title": "Основы фотографии",
+        "body": "Основы фотографии. Использовать естественный свет"
+      }
+    ],
+    "cases": [
+      {
+        "id": "2-01",
+        "category": "EN",
+        "query": "Orchid care",
+        "source": 1,
+        "expected_facts": "Water once a week",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-02",
+        "category": "EN",
+        "query": "orchid details",
+        "source": 1,
+        "expected_facts": "Water once a week",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-03",
+        "category": "RU",
+        "query": "Уход за орхидеей",
+        "source": 2,
+        "expected_facts": "Полив раз в неделю",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-04",
+        "category": "RU",
+        "query": "орхидеей подробнее",
+        "source": 2,
+        "expected_facts": "Полив раз в неделю",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-05",
+        "category": "mixed",
+        "query": "цена orchid",
+        "source": 1,
+        "expected_facts": "Water once a week",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-06",
+        "category": "EN",
+        "query": "Bicycle storage",
+        "source": 3,
+        "expected_facts": "Keep indoors",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-07",
+        "category": "EN",
+        "query": "bicycle details",
+        "source": 3,
+        "expected_facts": "Keep indoors",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-08",
+        "category": "RU",
+        "query": "Хранение велосипеда",
+        "source": 4,
+        "expected_facts": "Хранить внутри",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-09",
+        "category": "RU",
+        "query": "велосипеда подробнее",
+        "source": 4,
+        "expected_facts": "Хранить внутри",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-10",
+        "category": "mixed",
+        "query": "цена bicycle",
+        "source": 3,
+        "expected_facts": "Keep indoors",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-11",
+        "category": "EN",
+        "query": "Sourdough recipe",
+        "source": 5,
+        "expected_facts": "Rest for twelve hours",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-12",
+        "category": "EN",
+        "query": "sourdough details",
+        "source": 5,
+        "expected_facts": "Rest for twelve hours",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-13",
+        "category": "RU",
+        "query": "Рецепт закваски",
+        "source": 6,
+        "expected_facts": "Выдержать двенадцать часов",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-14",
+        "category": "RU",
+        "query": "закваски подробнее",
+        "source": 6,
+        "expected_facts": "Выдержать двенадцать часов",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-15",
+        "category": "cross",
+        "query": "details закваски",
+        "source": 6,
+        "expected_facts": "Выдержать двенадцать часов",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-16",
+        "category": "EN",
+        "query": "Photography basics",
+        "source": 7,
+        "expected_facts": "Use natural light",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-17",
+        "category": "EN",
+        "query": "photography details",
+        "source": 7,
+        "expected_facts": "Use natural light",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "2-18",
+        "category": "RU",
+        "query": "Основы фотографии",
+        "source": 8,
+        "expected_facts": "Использовать естественный свет",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-19",
+        "category": "RU",
+        "query": "фотографии подробнее",
+        "source": 8,
+        "expected_facts": "Использовать естественный свет",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "2-20",
+        "category": "cross",
+        "query": "details фотографии",
+        "source": 8,
+        "expected_facts": "Использовать естественный свет",
+        "locale": "en_US",
+        "expected_language": "en"
+      }
+    ]
+  },
+  {
+    "site": "store",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Notebook Atlas",
+        "body": "Notebook Atlas. SKU NB-142, 8 USD"
+      },
+      {
+        "id": 2,
+        "title": "Блокнот Атлас",
+        "body": "Блокнот Атлас. Артикул NB-142, 8 USD"
+      },
+      {
+        "id": 3,
+        "title": "Ceramic mug",
+        "body": "Ceramic mug. Volume 300 ml"
+      },
+      {
+        "id": 4,
+        "title": "Керамическая кружка",
+        "body": "Керамическая кружка. Объём 300 мл"
+      },
+      {
+        "id": 5,
+        "title": "Canvas backpack",
+        "body": "Canvas backpack. Capacity 20 L"
+      },
+      {
+        "id": 6,
+        "title": "Холщовый рюкзак",
+        "body": "Холщовый рюкзак. Объём 20 л"
+      },
+      {
+        "id": 7,
+        "title": "Desk lamp",
+        "body": "Desk lamp. Power 5 W"
+      },
+      {
+        "id": 8,
+        "title": "Настольная лампа",
+        "body": "Настольная лампа. Мощность 5 Вт"
+      }
+    ],
+    "cases": [
+      {
+        "id": "3-01",
+        "category": "EN",
+        "query": "Notebook Atlas",
+        "source": 1,
+        "expected_facts": "SKU NB-142, 8 USD",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-02",
+        "category": "EN",
+        "query": "notebook details",
+        "source": 1,
+        "expected_facts": "SKU NB-142, 8 USD",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-03",
+        "category": "RU",
+        "query": "Блокнот Атлас",
+        "source": 2,
+        "expected_facts": "Артикул NB-142, 8 USD",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-04",
+        "category": "RU",
+        "query": "блокнот подробнее",
+        "source": 2,
+        "expected_facts": "Артикул NB-142, 8 USD",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-05",
+        "category": "mixed",
+        "query": "цена notebook",
+        "source": 1,
+        "expected_facts": "SKU NB-142, 8 USD",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-06",
+        "category": "EN",
+        "query": "Ceramic mug",
+        "source": 3,
+        "expected_facts": "Volume 300 ml",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-07",
+        "category": "EN",
+        "query": "mug details",
+        "source": 3,
+        "expected_facts": "Volume 300 ml",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-08",
+        "category": "RU",
+        "query": "Керамическая кружка",
+        "source": 4,
+        "expected_facts": "Объём 300 мл",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-09",
+        "category": "RU",
+        "query": "кружка подробнее",
+        "source": 4,
+        "expected_facts": "Объём 300 мл",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-10",
+        "category": "mixed",
+        "query": "цена mug",
+        "source": 3,
+        "expected_facts": "Volume 300 ml",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-11",
+        "category": "EN",
+        "query": "Canvas backpack",
+        "source": 5,
+        "expected_facts": "Capacity 20 L",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-12",
+        "category": "EN",
+        "query": "backpack details",
+        "source": 5,
+        "expected_facts": "Capacity 20 L",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-13",
+        "category": "RU",
+        "query": "Холщовый рюкзак",
+        "source": 6,
+        "expected_facts": "Объём 20 л",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-14",
+        "category": "RU",
+        "query": "рюкзак подробнее",
+        "source": 6,
+        "expected_facts": "Объём 20 л",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-15",
+        "category": "cross",
+        "query": "details рюкзак",
+        "source": 6,
+        "expected_facts": "Объём 20 л",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-16",
+        "category": "EN",
+        "query": "Desk lamp",
+        "source": 7,
+        "expected_facts": "Power 5 W",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-17",
+        "category": "EN",
+        "query": "lamp details",
+        "source": 7,
+        "expected_facts": "Power 5 W",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "3-18",
+        "category": "RU",
+        "query": "Настольная лампа",
+        "source": 8,
+        "expected_facts": "Мощность 5 Вт",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-19",
+        "category": "RU",
+        "query": "лампа подробнее",
+        "source": 8,
+        "expected_facts": "Мощность 5 Вт",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "3-20",
+        "category": "cross",
+        "query": "details лампа",
+        "source": 8,
+        "expected_facts": "Мощность 5 Вт",
+        "locale": "en_US",
+        "expected_language": "en"
+      }
+    ]
+  },
+  {
+    "site": "catalog represented by standard pages",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Museum archive",
+        "body": "Museum archive. Open on Tuesday"
+      },
+      {
+        "id": 2,
+        "title": "Архив музея",
+        "body": "Архив музея. Открыт во вторник"
+      },
+      {
+        "id": 3,
+        "title": "Botanical collection",
+        "body": "Botanical collection. Contains 30 plants"
+      },
+      {
+        "id": 4,
+        "title": "Ботаническая коллекция",
+        "body": "Ботаническая коллекция. Содержит 30 растений"
+      },
+      {
+        "id": 5,
+        "title": "Film collection",
+        "body": "Film collection. Catalogue number FC-20"
+      },
+      {
+        "id": 6,
+        "title": "Коллекция кино",
+        "body": "Коллекция кино. Номер FC-20"
+      },
+      {
+        "id": 7,
+        "title": "Textile sample",
+        "body": "Textile sample. Made from cotton"
+      },
+      {
+        "id": 8,
+        "title": "Образец ткани",
+        "body": "Образец ткани. Из хлопка"
+      }
+    ],
+    "cases": [
+      {
+        "id": "4-01",
+        "category": "EN",
+        "query": "Museum archive",
+        "source": 1,
+        "expected_facts": "Open on Tuesday",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-02",
+        "category": "EN",
+        "query": "museum details",
+        "source": 1,
+        "expected_facts": "Open on Tuesday",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-03",
+        "category": "RU",
+        "query": "Архив музея",
+        "source": 2,
+        "expected_facts": "Открыт во вторник",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-04",
+        "category": "RU",
+        "query": "музея подробнее",
+        "source": 2,
+        "expected_facts": "Открыт во вторник",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-05",
+        "category": "mixed",
+        "query": "цена museum",
+        "source": 1,
+        "expected_facts": "Open on Tuesday",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-06",
+        "category": "EN",
+        "query": "Botanical collection",
+        "source": 3,
+        "expected_facts": "Contains 30 plants",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-07",
+        "category": "EN",
+        "query": "botanical details",
+        "source": 3,
+        "expected_facts": "Contains 30 plants",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-08",
+        "category": "RU",
+        "query": "Ботаническая коллекция",
+        "source": 4,
+        "expected_facts": "Содержит 30 растений",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-09",
+        "category": "RU",
+        "query": "ботаническая подробнее",
+        "source": 4,
+        "expected_facts": "Содержит 30 растений",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-10",
+        "category": "mixed",
+        "query": "цена botanical",
+        "source": 3,
+        "expected_facts": "Contains 30 plants",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-11",
+        "category": "EN",
+        "query": "Film collection",
+        "source": 5,
+        "expected_facts": "Catalogue number FC-20",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-12",
+        "category": "EN",
+        "query": "film details",
+        "source": 5,
+        "expected_facts": "Catalogue number FC-20",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-13",
+        "category": "RU",
+        "query": "Коллекция кино",
+        "source": 6,
+        "expected_facts": "Номер FC-20",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-14",
+        "category": "RU",
+        "query": "кино подробнее",
+        "source": 6,
+        "expected_facts": "Номер FC-20",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-15",
+        "category": "cross",
+        "query": "details кино",
+        "source": 6,
+        "expected_facts": "Номер FC-20",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-16",
+        "category": "EN",
+        "query": "Textile sample",
+        "source": 7,
+        "expected_facts": "Made from cotton",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-17",
+        "category": "EN",
+        "query": "textile details",
+        "source": 7,
+        "expected_facts": "Made from cotton",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "4-18",
+        "category": "RU",
+        "query": "Образец ткани",
+        "source": 8,
+        "expected_facts": "Из хлопка",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-19",
+        "category": "RU",
+        "query": "ткани подробнее",
+        "source": 8,
+        "expected_facts": "Из хлопка",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "4-20",
+        "category": "cross",
+        "query": "details ткани",
+        "source": 8,
+        "expected_facts": "Из хлопка",
+        "locale": "en_US",
+        "expected_language": "en"
+      }
+    ]
+  },
+  {
+    "site": "small showcase",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Ceramics studio",
+        "body": "Ceramics studio. Visits by appointment"
+      },
+      {
+        "id": 2,
+        "title": "Мастерская керамики",
+        "body": "Мастерская керамики. Посещения по записи"
+      },
+      {
+        "id": 3,
+        "title": "Woodwork gallery",
+        "body": "Woodwork gallery. Available for viewing"
+      },
+      {
+        "id": 4,
+        "title": "Галерея столярных работ",
+        "body": "Галерея столярных работ. Доступно для просмотра"
+      },
+      {
+        "id": 5,
+        "title": "Jewelry display",
+        "body": "Jewelry display. Silver collection"
+      },
+      {
+        "id": 6,
+        "title": "Витрина украшений",
+        "body": "Витрина украшений. Серебряная коллекция"
+      },
+      {
+        "id": 7,
+        "title": "Illustration portfolio",
+        "body": "Illustration portfolio. Print edition of ten"
+      },
+      {
+        "id": 8,
+        "title": "Портфолио иллюстраций",
+        "body": "Портфолио иллюстраций. Тираж десять"
+      }
+    ],
+    "cases": [
+      {
+        "id": "5-01",
+        "category": "EN",
+        "query": "Ceramics studio",
+        "source": 1,
+        "expected_facts": "Visits by appointment",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-02",
+        "category": "EN",
+        "query": "ceramics details",
+        "source": 1,
+        "expected_facts": "Visits by appointment",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-03",
+        "category": "RU",
+        "query": "Мастерская керамики",
+        "source": 2,
+        "expected_facts": "Посещения по записи",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-04",
+        "category": "RU",
+        "query": "керамики подробнее",
+        "source": 2,
+        "expected_facts": "Посещения по записи",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-05",
+        "category": "mixed",
+        "query": "цена ceramics",
+        "source": 1,
+        "expected_facts": "Visits by appointment",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-06",
+        "category": "EN",
+        "query": "Woodwork gallery",
+        "source": 3,
+        "expected_facts": "Available for viewing",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-07",
+        "category": "EN",
+        "query": "woodwork details",
+        "source": 3,
+        "expected_facts": "Available for viewing",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-08",
+        "category": "RU",
+        "query": "Галерея столярных работ",
+        "source": 4,
+        "expected_facts": "Доступно для просмотра",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-09",
+        "category": "RU",
+        "query": "столярных подробнее",
+        "source": 4,
+        "expected_facts": "Доступно для просмотра",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-10",
+        "category": "mixed",
+        "query": "цена woodwork",
+        "source": 3,
+        "expected_facts": "Available for viewing",
+        "locale": "en_US",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-11",
+        "category": "EN",
+        "query": "Jewelry display",
+        "source": 5,
+        "expected_facts": "Silver collection",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-12",
+        "category": "EN",
+        "query": "jewelry details",
+        "source": 5,
+        "expected_facts": "Silver collection",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-13",
+        "category": "RU",
+        "query": "Витрина украшений",
+        "source": 6,
+        "expected_facts": "Серебряная коллекция",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-14",
+        "category": "RU",
+        "query": "украшений подробнее",
+        "source": 6,
+        "expected_facts": "Серебряная коллекция",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-15",
+        "category": "cross",
+        "query": "details украшений",
+        "source": 6,
+        "expected_facts": "Серебряная коллекция",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-16",
+        "category": "EN",
+        "query": "Illustration portfolio",
+        "source": 7,
+        "expected_facts": "Print edition of ten",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-17",
+        "category": "EN",
+        "query": "illustration details",
+        "source": 7,
+        "expected_facts": "Print edition of ten",
+        "locale": "en_US",
+        "expected_language": "en"
+      },
+      {
+        "id": "5-18",
+        "category": "RU",
+        "query": "Портфолио иллюстраций",
+        "source": 8,
+        "expected_facts": "Тираж десять",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-19",
+        "category": "RU",
+        "query": "иллюстраций подробнее",
+        "source": 8,
+        "expected_facts": "Тираж десять",
+        "locale": "ru_RU",
+        "expected_language": "ru"
+      },
+      {
+        "id": "5-20",
+        "category": "cross",
+        "query": "details иллюстраций",
+        "source": 8,
+        "expected_facts": "Тираж десять",
+        "locale": "en_US",
+        "expected_language": "en"
+      }
+    ]
+  }
+]

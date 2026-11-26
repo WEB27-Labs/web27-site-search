@@ -1,0 +1,15 @@
+.env
+.env.*
+*.zip
+*.sql
+*.sqlite
+*.log
+wp-config.php
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+playwright-report/
+test-results/

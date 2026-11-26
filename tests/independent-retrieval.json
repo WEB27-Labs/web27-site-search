@@ -1,0 +1,1037 @@
+[
+  {
+    "site": "repair services",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Camera shutter service",
+        "body": "Aster camera shutter replacement costs 120 USD and takes three business days."
+      },
+      {
+        "id": 2,
+        "title": "Laptop battery replacement",
+        "body": "Birch laptop battery replacement costs 75 USD; diagnostics are included."
+      },
+      {
+        "id": 3,
+        "title": "Office network setup",
+        "body": "Cobalt office network setup includes router configuration and cable testing."
+      },
+      {
+        "id": 4,
+        "title": "Screen cleaning",
+        "body": "Dahlia screen cleaning costs 18 USD and requires no appointment."
+      },
+      {
+        "id": 5,
+        "title": "Ремонт принтеров",
+        "body": "Мастерская Лотос выполняет ремонт принтеров за 1800 рублей; диагностика включена."
+      },
+      {
+        "id": 6,
+        "title": "Настройка телевизоров",
+        "body": "Настройка телевизоров в мастерской Вереск занимает два часа и стоит 900 рублей."
+      },
+      {
+        "id": 7,
+        "title": "Восстановление фотографий",
+        "body": "Мастерская Ирис восстанавливает фотографии с карт памяти; минимальная цена 1500 рублей."
+      },
+      {
+        "id": 8,
+        "title": "Установка кондиционеров",
+        "body": "Монтаж кондиционеров Сосна включает проверку герметичности; срок один день."
+      }
+    ],
+    "cases": [
+      {
+        "query": "How much does Aster camera shutter replacement cost?",
+        "category": "EN",
+        "source": 1,
+        "fact": "Aster camera shutter replacement costs 120 USD and takes three business days.",
+        "language": "en",
+        "id": "N1-01"
+      },
+      {
+        "query": "How long is the shutter replacement service?",
+        "category": "EN",
+        "source": 1,
+        "fact": "Aster camera shutter replacement costs 120 USD and takes three business days.",
+        "language": "en",
+        "id": "N1-02"
+      },
+      {
+        "query": "What is the price of Birch laptop battery replacement?",
+        "category": "EN",
+        "source": 2,
+        "fact": "Birch laptop battery replacement costs 75 USD; diagnostics are included.",
+        "language": "en",
+        "id": "N1-03"
+      },
+      {
+        "query": "Are diagnostics included in the laptop battery service?",
+        "category": "EN",
+        "source": 2,
+        "fact": "Birch laptop battery replacement costs 75 USD; diagnostics are included.",
+        "language": "en",
+        "id": "N1-04"
+      },
+      {
+        "query": "What does Cobalt office network setup include?",
+        "category": "EN",
+        "source": 3,
+        "fact": "Cobalt office network setup includes router configuration and cable testing.",
+        "language": "en",
+        "id": "N1-05"
+      },
+      {
+        "query": "Can you configure a router and test cables?",
+        "category": "EN",
+        "source": 3,
+        "fact": "Cobalt office network setup includes router configuration and cable testing.",
+        "language": "en",
+        "id": "N1-06"
+      },
+      {
+        "query": "How much is Dahlia screen cleaning?",
+        "category": "EN",
+        "source": 4,
+        "fact": "Dahlia screen cleaning costs 18 USD and requires no appointment.",
+        "language": "en",
+        "id": "N1-07"
+      },
+      {
+        "query": "Do I need an appointment for screen cleaning?",
+        "category": "EN",
+        "source": 4,
+        "fact": "Dahlia screen cleaning costs 18 USD and requires no appointment.",
+        "language": "en",
+        "id": "N1-08"
+      },
+      {
+        "query": "Сколько стоит ремонт принтеров в Лотосе?",
+        "category": "RU",
+        "source": 5,
+        "fact": "Мастерская Лотос выполняет ремонт принтеров за 1800 рублей; диагностика включена.",
+        "language": "ru",
+        "id": "N1-09"
+      },
+      {
+        "query": "Включена ли диагностика принтера?",
+        "category": "RU",
+        "source": 5,
+        "fact": "Мастерская Лотос выполняет ремонт принтеров за 1800 рублей; диагностика включена.",
+        "language": "ru",
+        "id": "N1-10"
+      },
+      {
+        "query": "Сколько стоит настройка телевизоров Вереск?",
+        "category": "RU",
+        "source": 6,
+        "fact": "Настройка телевизоров в мастерской Вереск занимает два часа и стоит 900 рублей.",
+        "language": "ru",
+        "id": "N1-11"
+      },
+      {
+        "query": "Сколько времени занимает настройка телевизора?",
+        "category": "RU",
+        "source": 6,
+        "fact": "Настройка телевизоров в мастерской Вереск занимает два часа и стоит 900 рублей.",
+        "language": "ru",
+        "id": "N1-12"
+      },
+      {
+        "query": "Какая цена восстановления фотографий в Ирисе?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Мастерская Ирис восстанавливает фотографии с карт памяти; минимальная цена 1500 рублей.",
+        "language": "ru",
+        "id": "N1-13"
+      },
+      {
+        "query": "Восстанавливаете фотографии с карт памяти?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Мастерская Ирис восстанавливает фотографии с карт памяти; минимальная цена 1500 рублей.",
+        "language": "ru",
+        "id": "N1-14"
+      },
+      {
+        "query": "Что входит в монтаж кондиционеров Сосна?",
+        "category": "RU",
+        "source": 8,
+        "fact": "Монтаж кондиционеров Сосна включает проверку герметичности; срок один день.",
+        "language": "ru",
+        "id": "N1-15"
+      },
+      {
+        "query": "Какой срок установки кондиционеров?",
+        "category": "RU",
+        "source": 8,
+        "fact": "Монтаж кондиционеров Сосна включает проверку герметичности; срок один день.",
+        "language": "ru",
+        "id": "N1-16"
+      },
+      {
+        "query": "Aster сколько стоит shutter replacement?",
+        "category": "mixed",
+        "source": 1,
+        "fact": "Aster camera shutter replacement costs 120 USD and takes three business days.",
+        "language": "ru",
+        "id": "N1-17"
+      },
+      {
+        "query": "Лотос printer repair price?",
+        "category": "mixed",
+        "source": 5,
+        "fact": "Мастерская Лотос выполняет ремонт принтеров за 1800 рублей; диагностика включена.",
+        "language": "ru",
+        "id": "N1-18"
+      },
+      {
+        "query": "How much is television configuration?",
+        "category": "cross",
+        "source": 6,
+        "fact": "Настройка телевизоров в мастерской Вереск занимает два часа и стоит 900 рублей.",
+        "language": "en",
+        "id": "N1-19"
+      },
+      {
+        "query": "Входит ли проверка кабелей в настройку офисной сети?",
+        "category": "cross",
+        "source": 3,
+        "fact": "Cobalt office network setup includes router configuration and cable testing.",
+        "language": "ru",
+        "id": "N1-20"
+      }
+    ]
+  },
+  {
+    "site": "education blog",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Composting guide",
+        "body": "The Rowan composting guide recommends dry leaves and vegetable scraps. Avoid meat."
+      },
+      {
+        "id": 2,
+        "title": "Night sky photography",
+        "body": "The Finch night sky photography tutorial suggests a tripod and a ten-second exposure."
+      },
+      {
+        "id": 3,
+        "title": "Sourdough starter",
+        "body": "The Juniper sourdough starter article recommends feeding flour and water daily."
+      },
+      {
+        "id": 4,
+        "title": "Bicycle maintenance",
+        "body": "The Marlin bicycle maintenance article recommends checking tire pressure weekly."
+      },
+      {
+        "id": 5,
+        "title": "Уход за орхидеями",
+        "body": "В статье Азалия сказано: орхидеи поливают после просыхания субстрата."
+      },
+      {
+        "id": 6,
+        "title": "Выращивание рассады",
+        "body": "Руководство Клевер советует высаживать рассаду после последних заморозков."
+      },
+      {
+        "id": 7,
+        "title": "Домашняя выпечка",
+        "body": "Статья Шафран советует выпекать ржаной хлеб при 190 градусах."
+      },
+      {
+        "id": 8,
+        "title": "Рисование акварелью",
+        "body": "В уроке Василёк для акварели используют плотную бумагу и мягкую кисть."
+      }
+    ],
+    "cases": [
+      {
+        "query": "What does the Rowan composting guide recommend?",
+        "category": "EN",
+        "source": 1,
+        "fact": "The Rowan composting guide recommends dry leaves and vegetable scraps. Avoid meat.",
+        "language": "en",
+        "id": "N2-01"
+      },
+      {
+        "query": "Can meat be added to compost?",
+        "category": "EN",
+        "source": 1,
+        "fact": "The Rowan composting guide recommends dry leaves and vegetable scraps. Avoid meat.",
+        "language": "en",
+        "id": "N2-02"
+      },
+      {
+        "query": "What exposure does Finch recommend for night sky photography?",
+        "category": "EN",
+        "source": 2,
+        "fact": "The Finch night sky photography tutorial suggests a tripod and a ten-second exposure.",
+        "language": "en",
+        "id": "N2-03"
+      },
+      {
+        "query": "Do I need a tripod to photograph the night sky?",
+        "category": "EN",
+        "source": 2,
+        "fact": "The Finch night sky photography tutorial suggests a tripod and a ten-second exposure.",
+        "language": "en",
+        "id": "N2-04"
+      },
+      {
+        "query": "How often should I feed the Juniper sourdough starter?",
+        "category": "EN",
+        "source": 3,
+        "fact": "The Juniper sourdough starter article recommends feeding flour and water daily.",
+        "language": "en",
+        "id": "N2-05"
+      },
+      {
+        "query": "What ingredients are used to feed sourdough?",
+        "category": "EN",
+        "source": 3,
+        "fact": "The Juniper sourdough starter article recommends feeding flour and water daily.",
+        "language": "en",
+        "id": "N2-06"
+      },
+      {
+        "query": "How often should I check bicycle tire pressure?",
+        "category": "EN",
+        "source": 4,
+        "fact": "The Marlin bicycle maintenance article recommends checking tire pressure weekly.",
+        "language": "en",
+        "id": "N2-07"
+      },
+      {
+        "query": "What is the Marlin bicycle maintenance recommendation?",
+        "category": "EN",
+        "source": 4,
+        "fact": "The Marlin bicycle maintenance article recommends checking tire pressure weekly.",
+        "language": "en",
+        "id": "N2-08"
+      },
+      {
+        "query": "Когда поливать орхидеи по статье Азалия?",
+        "category": "RU",
+        "source": 5,
+        "fact": "В статье Азалия сказано: орхидеи поливают после просыхания субстрата.",
+        "language": "ru",
+        "id": "N2-09"
+      },
+      {
+        "query": "Нужно ли ждать просыхания субстрата орхидеи?",
+        "category": "RU",
+        "source": 5,
+        "fact": "В статье Азалия сказано: орхидеи поливают после просыхания субстрата.",
+        "language": "ru",
+        "id": "N2-10"
+      },
+      {
+        "query": "Когда высаживать рассаду по руководству Клевер?",
+        "category": "RU",
+        "source": 6,
+        "fact": "Руководство Клевер советует высаживать рассаду после последних заморозков.",
+        "language": "ru",
+        "id": "N2-11"
+      },
+      {
+        "query": "Можно ли высаживать рассаду до окончания заморозков?",
+        "category": "RU",
+        "source": 6,
+        "fact": "Руководство Клевер советует высаживать рассаду после последних заморозков.",
+        "language": "ru",
+        "id": "N2-12"
+      },
+      {
+        "query": "При какой температуре выпекать ржаной хлеб Шафран?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Статья Шафран советует выпекать ржаной хлеб при 190 градусах.",
+        "language": "ru",
+        "id": "N2-13"
+      },
+      {
+        "query": "Что советует статья о ржаном хлебе?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Статья Шафран советует выпекать ржаной хлеб при 190 градусах.",
+        "language": "ru",
+        "id": "N2-14"
+      },
+      {
+        "query": "Какая бумага нужна для акварели Василёк?",
+        "category": "RU",
+        "source": 8,
+        "fact": "В уроке Василёк для акварели используют плотную бумагу и мягкую кисть.",
+        "language": "ru",
+        "id": "N2-15"
+      },
+      {
+        "query": "Какую кисть использовать при рисовании акварелью?",
+        "category": "RU",
+        "source": 8,
+        "fact": "В уроке Василёк для акварели используют плотную бумагу и мягкую кисть.",
+        "language": "ru",
+        "id": "N2-16"
+      },
+      {
+        "query": "Finch какая exposure для night sky?",
+        "category": "mixed",
+        "source": 2,
+        "fact": "The Finch night sky photography tutorial suggests a tripod and a ten-second exposure.",
+        "language": "ru",
+        "id": "N2-17"
+      },
+      {
+        "query": "Азалия when to water orchid?",
+        "category": "mixed",
+        "source": 5,
+        "fact": "В статье Азалия сказано: орхидеи поливают после просыхания субстрата.",
+        "language": "ru",
+        "id": "N2-18"
+      },
+      {
+        "query": "What temperature should rye bread bake at?",
+        "category": "cross",
+        "source": 7,
+        "fact": "Статья Шафран советует выпекать ржаной хлеб при 190 градусах.",
+        "language": "en",
+        "id": "N2-19"
+      },
+      {
+        "query": "Как часто проверять давление в велосипедных шинах?",
+        "category": "cross",
+        "source": 4,
+        "fact": "The Marlin bicycle maintenance article recommends checking tire pressure weekly.",
+        "language": "ru",
+        "id": "N2-20"
+      }
+    ]
+  },
+  {
+    "site": "store represented by public pages",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Aurum kettle",
+        "body": "The Aurum stainless steel kettle holds 1.7 liters and costs 49 USD."
+      },
+      {
+        "id": 2,
+        "title": "Brindle backpack",
+        "body": "The Brindle backpack has a 20 liter capacity and a padded laptop pocket."
+      },
+      {
+        "id": 3,
+        "title": "Coral desk lamp",
+        "body": "The Coral desk lamp has three brightness levels and a USB-C cable."
+      },
+      {
+        "id": 4,
+        "title": "Drift water bottle",
+        "body": "The Drift water bottle holds 750 milliliters and is dishwasher safe."
+      },
+      {
+        "id": 5,
+        "title": "Чайник Кедр",
+        "body": "Чайник Кедр объёмом два литра стоит 2400 рублей."
+      },
+      {
+        "id": 6,
+        "title": "Рюкзак Тундра",
+        "body": "Рюкзак Тундра рассчитан на 35 литров, есть поясной ремень."
+      },
+      {
+        "id": 7,
+        "title": "Настольная лампа Луч",
+        "body": "Лампа Луч имеет сенсорное управление и три режима яркости."
+      },
+      {
+        "id": 8,
+        "title": "Термокружка Волна",
+        "body": "Термокружка Волна сохраняет тепло четыре часа и вмещает 450 миллилитров."
+      }
+    ],
+    "cases": [
+      {
+        "query": "What is the capacity of the Aurum kettle?",
+        "category": "EN",
+        "source": 1,
+        "fact": "The Aurum stainless steel kettle holds 1.7 liters and costs 49 USD.",
+        "language": "en",
+        "id": "N3-01"
+      },
+      {
+        "query": "How much does the stainless steel kettle cost?",
+        "category": "EN",
+        "source": 1,
+        "fact": "The Aurum stainless steel kettle holds 1.7 liters and costs 49 USD.",
+        "language": "en",
+        "id": "N3-02"
+      },
+      {
+        "query": "Does the Brindle backpack have a laptop pocket?",
+        "category": "EN",
+        "source": 2,
+        "fact": "The Brindle backpack has a 20 liter capacity and a padded laptop pocket.",
+        "language": "en",
+        "id": "N3-03"
+      },
+      {
+        "query": "What is the backpack capacity?",
+        "category": "EN",
+        "source": 2,
+        "fact": "The Brindle backpack has a 20 liter capacity and a padded laptop pocket.",
+        "language": "en",
+        "id": "N3-04"
+      },
+      {
+        "query": "How many brightness levels does the Coral desk lamp have?",
+        "category": "EN",
+        "source": 3,
+        "fact": "The Coral desk lamp has three brightness levels and a USB-C cable.",
+        "language": "en",
+        "id": "N3-05"
+      },
+      {
+        "query": "Does the desk lamp include a USB-C cable?",
+        "category": "EN",
+        "source": 3,
+        "fact": "The Coral desk lamp has three brightness levels and a USB-C cable.",
+        "language": "en",
+        "id": "N3-06"
+      },
+      {
+        "query": "How much does the Drift water bottle hold?",
+        "category": "EN",
+        "source": 4,
+        "fact": "The Drift water bottle holds 750 milliliters and is dishwasher safe.",
+        "language": "en",
+        "id": "N3-07"
+      },
+      {
+        "query": "Is the water bottle dishwasher safe?",
+        "category": "EN",
+        "source": 4,
+        "fact": "The Drift water bottle holds 750 milliliters and is dishwasher safe.",
+        "language": "en",
+        "id": "N3-08"
+      },
+      {
+        "query": "Какой объём чайника Кедр?",
+        "category": "RU",
+        "source": 5,
+        "fact": "Чайник Кедр объёмом два литра стоит 2400 рублей.",
+        "language": "ru",
+        "id": "N3-09"
+      },
+      {
+        "query": "Сколько стоит чайник Кедр?",
+        "category": "RU",
+        "source": 5,
+        "fact": "Чайник Кедр объёмом два литра стоит 2400 рублей.",
+        "language": "ru",
+        "id": "N3-10"
+      },
+      {
+        "query": "Сколько литров в рюкзаке Тундра?",
+        "category": "RU",
+        "source": 6,
+        "fact": "Рюкзак Тундра рассчитан на 35 литров, есть поясной ремень.",
+        "language": "ru",
+        "id": "N3-11"
+      },
+      {
+        "query": "Есть ли поясной ремень у рюкзака Тундра?",
+        "category": "RU",
+        "source": 6,
+        "fact": "Рюкзак Тундра рассчитан на 35 литров, есть поясной ремень.",
+        "language": "ru",
+        "id": "N3-12"
+      },
+      {
+        "query": "Какие режимы яркости у лампы Луч?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Лампа Луч имеет сенсорное управление и три режима яркости.",
+        "language": "ru",
+        "id": "N3-13"
+      },
+      {
+        "query": "Есть ли у настольной лампы сенсорное управление?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Лампа Луч имеет сенсорное управление и три режима яркости.",
+        "language": "ru",
+        "id": "N3-14"
+      },
+      {
+        "query": "Сколько времени держит тепло термокружка Волна?",
+        "category": "RU",
+        "source": 8,
+        "fact": "Термокружка Волна сохраняет тепло четыре часа и вмещает 450 миллилитров.",
+        "language": "ru",
+        "id": "N3-15"
+      },
+      {
+        "query": "Какой объём термокружки Волна?",
+        "category": "RU",
+        "source": 8,
+        "fact": "Термокружка Волна сохраняет тепло четыре часа и вмещает 450 миллилитров.",
+        "language": "ru",
+        "id": "N3-16"
+      },
+      {
+        "query": "Aurum сколько liters в kettle?",
+        "category": "mixed",
+        "source": 1,
+        "fact": "The Aurum stainless steel kettle holds 1.7 liters and costs 49 USD.",
+        "language": "ru",
+        "id": "N3-17"
+      },
+      {
+        "query": "Тундра backpack 35 liter belt?",
+        "category": "mixed",
+        "source": 6,
+        "fact": "Рюкзак Тундра рассчитан на 35 литров, есть поясной ремень.",
+        "language": "ru",
+        "id": "N3-18"
+      },
+      {
+        "query": "How long does the insulated travel mug retain heat?",
+        "category": "cross",
+        "source": 8,
+        "fact": "Термокружка Волна сохраняет тепло четыре часа и вмещает 450 миллилитров.",
+        "language": "en",
+        "id": "N3-19"
+      },
+      {
+        "query": "Сколько уровней яркости у настольного светильника?",
+        "category": "cross",
+        "source": 3,
+        "fact": "The Coral desk lamp has three brightness levels and a USB-C cable.",
+        "language": "ru",
+        "id": "N3-20"
+      }
+    ]
+  },
+  {
+    "site": "public catalog pages",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Museum textile collection",
+        "body": "The Magnolia textile collection contains handwoven linen from the nineteenth century."
+      },
+      {
+        "id": 2,
+        "title": "Mineral specimen",
+        "body": "The Jasper mineral specimen is quartz from a mountain quarry."
+      },
+      {
+        "id": 3,
+        "title": "Archive photograph",
+        "body": "The Opal archive photograph shows a railway bridge built in 1912."
+      },
+      {
+        "id": 4,
+        "title": "Ceramic bowl",
+        "body": "The Wren ceramic bowl was made in 1925 and has a blue glaze."
+      },
+      {
+        "id": 5,
+        "title": "Коллекция монет",
+        "body": "Коллекция Рубин содержит медные монеты XIX века из Российской империи."
+      },
+      {
+        "id": 6,
+        "title": "Гербарий",
+        "body": "Гербарий Ольха содержит образцы папоротников, собранные в 1960 году."
+      },
+      {
+        "id": 7,
+        "title": "Архивная карта",
+        "body": "Карта Сапфир показывает морские маршруты 1875 года."
+      },
+      {
+        "id": 8,
+        "title": "Стеклянная ваза",
+        "body": "Ваза Лазурь изготовлена из цветного стекла в 1932 году."
+      }
+    ],
+    "cases": [
+      {
+        "query": "What material is in the Magnolia textile collection?",
+        "category": "EN",
+        "source": 1,
+        "fact": "The Magnolia textile collection contains handwoven linen from the nineteenth century.",
+        "language": "en",
+        "id": "N4-01"
+      },
+      {
+        "query": "What century are the handwoven textiles from?",
+        "category": "EN",
+        "source": 1,
+        "fact": "The Magnolia textile collection contains handwoven linen from the nineteenth century.",
+        "language": "en",
+        "id": "N4-02"
+      },
+      {
+        "query": "What mineral is the Jasper specimen?",
+        "category": "EN",
+        "source": 2,
+        "fact": "The Jasper mineral specimen is quartz from a mountain quarry.",
+        "language": "en",
+        "id": "N4-03"
+      },
+      {
+        "query": "Where did the quartz specimen come from?",
+        "category": "EN",
+        "source": 2,
+        "fact": "The Jasper mineral specimen is quartz from a mountain quarry.",
+        "language": "en",
+        "id": "N4-04"
+      },
+      {
+        "query": "What does the Opal archive photograph depict?",
+        "category": "EN",
+        "source": 3,
+        "fact": "The Opal archive photograph shows a railway bridge built in 1912.",
+        "language": "en",
+        "id": "N4-05"
+      },
+      {
+        "query": "When was the railway bridge built?",
+        "category": "EN",
+        "source": 3,
+        "fact": "The Opal archive photograph shows a railway bridge built in 1912.",
+        "language": "en",
+        "id": "N4-06"
+      },
+      {
+        "query": "When was the Wren ceramic bowl made?",
+        "category": "EN",
+        "source": 4,
+        "fact": "The Wren ceramic bowl was made in 1925 and has a blue glaze.",
+        "language": "en",
+        "id": "N4-07"
+      },
+      {
+        "query": "What glaze does the ceramic bowl have?",
+        "category": "EN",
+        "source": 4,
+        "fact": "The Wren ceramic bowl was made in 1925 and has a blue glaze.",
+        "language": "en",
+        "id": "N4-08"
+      },
+      {
+        "query": "Из какого металла монеты коллекции Рубин?",
+        "category": "RU",
+        "source": 5,
+        "fact": "Коллекция Рубин содержит медные монеты XIX века из Российской империи.",
+        "language": "ru",
+        "id": "N4-09"
+      },
+      {
+        "query": "Какого века монеты коллекции Рубин?",
+        "category": "RU",
+        "source": 5,
+        "fact": "Коллекция Рубин содержит медные монеты XIX века из Российской империи.",
+        "language": "ru",
+        "id": "N4-10"
+      },
+      {
+        "query": "Какие растения в гербарии Ольха?",
+        "category": "RU",
+        "source": 6,
+        "fact": "Гербарий Ольха содержит образцы папоротников, собранные в 1960 году.",
+        "language": "ru",
+        "id": "N4-11"
+      },
+      {
+        "query": "В каком году собраны образцы гербария Ольха?",
+        "category": "RU",
+        "source": 6,
+        "fact": "Гербарий Ольха содержит образцы папоротников, собранные в 1960 году.",
+        "language": "ru",
+        "id": "N4-12"
+      },
+      {
+        "query": "Какие маршруты показаны на карте Сапфир?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Карта Сапфир показывает морские маршруты 1875 года.",
+        "language": "ru",
+        "id": "N4-13"
+      },
+      {
+        "query": "Какого года архивная карта Сапфир?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Карта Сапфир показывает морские маршруты 1875 года.",
+        "language": "ru",
+        "id": "N4-14"
+      },
+      {
+        "query": "Когда изготовлена ваза Лазурь?",
+        "category": "RU",
+        "source": 8,
+        "fact": "Ваза Лазурь изготовлена из цветного стекла в 1932 году.",
+        "language": "ru",
+        "id": "N4-15"
+      },
+      {
+        "query": "Из какого материала стеклянная ваза Лазурь?",
+        "category": "RU",
+        "source": 8,
+        "fact": "Ваза Лазурь изготовлена из цветного стекла в 1932 году.",
+        "language": "ru",
+        "id": "N4-16"
+      },
+      {
+        "query": "Opal railway bridge какой год?",
+        "category": "mixed",
+        "source": 3,
+        "fact": "The Opal archive photograph shows a railway bridge built in 1912.",
+        "language": "ru",
+        "id": "N4-17"
+      },
+      {
+        "query": "Ольха fern herbarium year?",
+        "category": "mixed",
+        "source": 6,
+        "fact": "Гербарий Ольха содержит образцы папоротников, собранные в 1960 году.",
+        "language": "ru",
+        "id": "N4-18"
+      },
+      {
+        "query": "Which metal are the historical coins made from?",
+        "category": "cross",
+        "source": 5,
+        "fact": "Коллекция Рубин содержит медные монеты XIX века из Российской империи.",
+        "language": "en",
+        "id": "N4-19"
+      },
+      {
+        "query": "Какой минерал найден в горном карьере?",
+        "category": "cross",
+        "source": 2,
+        "fact": "The Jasper mineral specimen is quartz from a mountain quarry.",
+        "language": "ru",
+        "id": "N4-20"
+      }
+    ]
+  },
+  {
+    "site": "small studio showcase",
+    "documents": [
+      {
+        "id": 1,
+        "title": "Photo portrait package",
+        "body": "The Lumen portrait package includes a one-hour session and ten edited photos."
+      },
+      {
+        "id": 2,
+        "title": "Pottery workshop",
+        "body": "The Fern pottery workshop lasts two hours and includes clay and firing."
+      },
+      {
+        "id": 3,
+        "title": "Illustration commission",
+        "body": "The Meadow illustration commission includes one sketch and two revisions."
+      },
+      {
+        "id": 4,
+        "title": "Acoustic recording",
+        "body": "The Nova acoustic recording package includes three hours of studio time."
+      },
+      {
+        "id": 5,
+        "title": "Фотосессия Рассвет",
+        "body": "Фотосессия Рассвет длится 45 минут и включает пять обработанных кадров."
+      },
+      {
+        "id": 6,
+        "title": "Керамическая студия",
+        "body": "В студии Мята курс лепки длится четыре занятия; материалы включены."
+      },
+      {
+        "id": 7,
+        "title": "Дизайн афиш",
+        "body": "Студия Сова выполняет дизайн афиш за три рабочих дня с одной правкой."
+      },
+      {
+        "id": 8,
+        "title": "Запись подкаста",
+        "body": "Пакет Звук включает запись подкаста и монтаж одной дорожки."
+      }
+    ],
+    "cases": [
+      {
+        "query": "How many edited photos are included in the Lumen portrait package?",
+        "category": "EN",
+        "source": 1,
+        "fact": "The Lumen portrait package includes a one-hour session and ten edited photos.",
+        "language": "en",
+        "id": "N5-01"
+      },
+      {
+        "query": "How long is the portrait session?",
+        "category": "EN",
+        "source": 1,
+        "fact": "The Lumen portrait package includes a one-hour session and ten edited photos.",
+        "language": "en",
+        "id": "N5-02"
+      },
+      {
+        "query": "How long is the Fern pottery workshop?",
+        "category": "EN",
+        "source": 2,
+        "fact": "The Fern pottery workshop lasts two hours and includes clay and firing.",
+        "language": "en",
+        "id": "N5-03"
+      },
+      {
+        "query": "Are clay and firing included in the pottery workshop?",
+        "category": "EN",
+        "source": 2,
+        "fact": "The Fern pottery workshop lasts two hours and includes clay and firing.",
+        "language": "en",
+        "id": "N5-04"
+      },
+      {
+        "query": "How many revisions are included in the Meadow illustration commission?",
+        "category": "EN",
+        "source": 3,
+        "fact": "The Meadow illustration commission includes one sketch and two revisions.",
+        "language": "en",
+        "id": "N5-05"
+      },
+      {
+        "query": "Does the illustration commission include a sketch?",
+        "category": "EN",
+        "source": 3,
+        "fact": "The Meadow illustration commission includes one sketch and two revisions.",
+        "language": "en",
+        "id": "N5-06"
+      },
+      {
+        "query": "How many studio hours are included in Nova acoustic recording?",
+        "category": "EN",
+        "source": 4,
+        "fact": "The Nova acoustic recording package includes three hours of studio time.",
+        "language": "en",
+        "id": "N5-07"
+      },
+      {
+        "query": "What is included in the acoustic recording package?",
+        "category": "EN",
+        "source": 4,
+        "fact": "The Nova acoustic recording package includes three hours of studio time.",
+        "language": "en",
+        "id": "N5-08"
+      },
+      {
+        "query": "Сколько длится фотосессия Рассвет?",
+        "category": "RU",
+        "source": 5,
+        "fact": "Фотосессия Рассвет длится 45 минут и включает пять обработанных кадров.",
+        "language": "ru",
+        "id": "N5-09"
+      },
+      {
+        "query": "Сколько обработанных кадров входит в фотосессию Рассвет?",
+        "category": "RU",
+        "source": 5,
+        "fact": "Фотосессия Рассвет длится 45 минут и включает пять обработанных кадров.",
+        "language": "ru",
+        "id": "N5-10"
+      },
+      {
+        "query": "Сколько занятий в курсе лепки Мята?",
+        "category": "RU",
+        "source": 6,
+        "fact": "В студии Мята курс лепки длится четыре занятия; материалы включены.",
+        "language": "ru",
+        "id": "N5-11"
+      },
+      {
+        "query": "Включены ли материалы в курс лепки?",
+        "category": "RU",
+        "source": 6,
+        "fact": "В студии Мята курс лепки длится четыре занятия; материалы включены.",
+        "language": "ru",
+        "id": "N5-12"
+      },
+      {
+        "query": "Сколько времени занимает дизайн афиш Сова?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Студия Сова выполняет дизайн афиш за три рабочих дня с одной правкой.",
+        "language": "ru",
+        "id": "N5-13"
+      },
+      {
+        "query": "Сколько правок входит в дизайн афиш?",
+        "category": "RU",
+        "source": 7,
+        "fact": "Студия Сова выполняет дизайн афиш за три рабочих дня с одной правкой.",
+        "language": "ru",
+        "id": "N5-14"
+      },
+      {
+        "query": "Что входит в пакет записи подкаста Звук?",
+        "category": "RU",
+        "source": 8,
+        "fact": "Пакет Звук включает запись подкаста и монтаж одной дорожки.",
+        "language": "ru",
+        "id": "N5-15"
+      },
+      {
+        "query": "Включён ли монтаж дорожки подкаста?",
+        "category": "RU",
+        "source": 8,
+        "fact": "Пакет Звук включает запись подкаста и монтаж одной дорожки.",
+        "language": "ru",
+        "id": "N5-16"
+      },
+      {
+        "query": "Lumen portrait сколько edited photos?",
+        "category": "mixed",
+        "source": 1,
+        "fact": "The Lumen portrait package includes a one-hour session and ten edited photos.",
+        "language": "ru",
+        "id": "N5-17"
+      },
+      {
+        "query": "Сова poster design revisions?",
+        "category": "mixed",
+        "source": 7,
+        "fact": "Студия Сова выполняет дизайн афиш за три рабочих дня с одной правкой.",
+        "language": "ru",
+        "id": "N5-18"
+      },
+      {
+        "query": "How many lessons are included in the clay modelling course?",
+        "category": "cross",
+        "source": 6,
+        "fact": "В студии Мята курс лепки длится четыре занятия; материалы включены.",
+        "language": "en",
+        "id": "N5-19"
+      },
+      {
+        "query": "Сколько часов студийного времени входит в акустическую запись?",
+        "category": "cross",
+        "source": 4,
+        "fact": "The Nova acoustic recording package includes three hours of studio time.",
+        "language": "ru",
+        "id": "N5-20"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2676 @@
+# WEB27 Site Search translation catalog.
+# Copyright (C) 2026 WEB27
+# Distributed under GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WEB27 Site Search 1.0.0\n"
+"Report-Msgid-Bugs-To: https://web27.ru/\n"
+"POT-Creation-Date: 2026-11-26 00:00+0000\n"
+"PO-Revision-Date: 2026-11-26 00:00+0000\n"
+"Last-Translator: WEB27\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: Console.php:155
+msgid " · Passages: "
+msgstr ""
+
+#: Console.php:155
+msgid " · Vectors for selected model: "
+msgstr ""
+
+#: Console.php:149
+msgid " · score "
+msgstr ""
+
+#: Console.php:149
+msgid " · similarity "
+msgstr ""
+
+#: StudioAdmin.php:191
+msgid "% · status: "
+msgstr ""
+
+#: AdminGuide.php:168
+msgid ""
+"(for example, from a secret environment variable in wp-config.php), which overrides the key in "
+"the dashboard. This is not required for normal installation."
+msgstr ""
+
+#: AdminGuide.php:40
+msgid ""
+"(skip this step if already active), install and activate. The Site Search menu appears. Do not "
+"upload the outer release kit archive to WordPress."
+msgstr ""
+
+#: StudioAdmin.php:238
+msgid ""
+", H3 16px, body 15px, cards 12px, buttons 14px, eyebrow 11px and meta 10px. Body text is not "
+"reduced on mobile."
+msgstr ""
+
+#: AdminGuide.php:278
+msgid ", correct sources, the model and no error. Token counts appear if supplied by the provider."
+msgstr ""
+
+#: AdminGuide.php:379
+msgid ", shortcode placement and cache."
+msgstr ""
+
+msgid ", the separate floating button is disabled in automatic visibility mode."
+msgstr ""
+
+#: AdminGuide.php:112
+msgid ", without the Bearer prefix or quotes"
+msgstr ""
+
+#: Console.php:156
+msgid ". Background batches run through WP-Cron."
+msgstr ""
+
+#: AdminGuide.php:71
+msgid ". Choose models from the current catalog:"
+msgstr ""
+
+#: AdminGuide.php:251
+msgid ". If the theme declares support for"
+msgstr ""
+
+#: StudioAdmin.php:191
+msgid ". Pages are crawled in small batches on the WordPress cron schedule."
+msgstr ""
+
+#: Console.php:156
+msgid ". Semantic search: "
+msgstr ""
+
+#: StudioAdmin.php:155
+msgid "0 = no internal daily limit. Counts answer attempts, not money; embeddings are excluded."
+msgstr ""
+
+#: AdminGuide.php:22 AdminGuide.php:37
+msgid "1. Installation and preparation"
+msgstr ""
+
+#: AdminGuide.php:31 AdminGuide.php:328
+msgid "10. Troubleshooting"
+msgstr ""
+
+#: AdminGuide.php:144
+msgid "100 (20–50 for a cautious pilot)"
+msgstr ""
+
+#: AdminGuide.php:32 AdminGuide.php:390
+msgid "11. Official resources"
+msgstr ""
+
+#: AdminGuide.php:33 AdminGuide.php:408
+msgid "12. Languages and translations"
+msgstr ""
+
+#: AdminGuide.php:34 AdminGuide.php:422
+msgid "13. Answer quality and corrections"
+msgstr ""
+
+msgid "14. Additional knowledge sources"
+msgstr ""
+
+#: AdminGuide.php:23 AdminGuide.php:51
+msgid "2. Choose a provider and obtain a key"
+msgstr ""
+
+#: AdminGuide.php:24 AdminGuide.php:84
+msgid "3. Configure AI"
+msgstr ""
+
+#: AdminGuide.php:25 AdminGuide.php:175
+msgid "4. Index the site"
+msgstr ""
+
+#: AdminGuide.php:176
+msgid "4.1. Standard WordPress pages and blog posts"
+msgstr ""
+
+#: AdminGuide.php:180
+msgid "4.2. Virtual pages, additional routes and dynamic public HTML"
+msgstr ""
+
+#: AdminGuide.php:26 AdminGuide.php:225
+msgid "5. Embeddings — semantic search"
+msgstr ""
+
+#: AdminGuide.php:27 AdminGuide.php:236
+msgid "6. RAG and conversation rules"
+msgstr ""
+
+#: StudioAdmin.php:266
+msgid "6.6+ recommended"
+msgstr ""
+
+#: AdminGuide.php:28 AdminGuide.php:248
+msgid "7. Interface and placement"
+msgstr ""
+
+#: AdminGuide.php:29 AdminGuide.php:263
+msgid "8. Cost and data controls"
+msgstr ""
+
+#: AdminGuide.php:30 AdminGuide.php:277
+msgid "9. New site acceptance checks"
+msgstr ""
+
+#: AdminGuide.php:314
+msgid ""
+"A follow-up such as How much?, Where? or Tell me more — the current topic is retained when "
+"relevant."
+msgstr ""
+
+#: AdminGuide.php:313
+msgid ""
+"A paraphrased question — check whether semantic search finds a relevant result when embeddings "
+"are enabled. Cross-language retrieval depends on the model and indexed content."
+msgstr ""
+
+#: AdminGuide.php:312
+msgid "A question about an unambiguous published fact — accurate fact and relevant source."
+msgstr ""
+
+#: StudioAdmin.php:108
+msgid "A quick test verifies the actual connection; search works locally without an API."
+msgstr ""
+
+msgid "A short description of a public resource."
+msgstr ""
+
+#: AdminGuide.php:15 StudioAdmin.php:68
+msgid "AI and answers"
+msgstr ""
+
+#: StudioAdmin.php:139
+msgid "AI answer generation"
+msgstr ""
+
+#: StudioAdmin.php:65
+msgid "AI configured"
+msgstr ""
+
+#: AdminGuide.php:362
+msgid "AI configured, but answers are local"
+msgstr ""
+
+#: StudioAdmin.php:65
+msgid "AI not configured"
+msgstr ""
+
+#: AdminGuide.php:14 StudioAdmin.php:121
+msgid "AI provider"
+msgstr ""
+
+#: AdminGuide.php:143 StudioAdmin.php:155
+msgid "AI requests per day"
+msgstr ""
+
+#: AdminGuide.php:265
+msgid ""
+"AI requests per day counts site-wide chat generation attempts, not money. Zero disables the "
+"internal daily limit. Admin tests also consume the limit. Per-IP rate limiting is separate and "
+"does not replace a budget."
+msgstr ""
+
+#: Frontend.php:106
+msgid ""
+"AI search may send your query to an external service. Do not enter personal or confidential "
+"information."
+msgstr ""
+
+#: AdminGuide.php:393
+msgid "API documentation"
+msgstr ""
+
+#: AdminGuide.php:111 StudioAdmin.php:146
+msgid "API key"
+msgstr ""
+
+#: AdminGuide.php:392 AdminGuide.php:393
+msgid "API keys"
+msgstr ""
+
+msgid "Accent color"
+msgstr ""
+
+#: Console.php:45
+msgid "Access denied (403). Verify model permission, region and provider rules."
+msgstr ""
+
+#: StudioAdmin.php:400
+msgid "Access denied."
+msgstr ""
+
+#: AdminGuide.php:396
+msgid "Account:"
+msgstr ""
+
+#: AdminGuide.php:68
+msgid "Add a small balance sufficient for testing in the billing section."
+msgstr ""
+
+#: StudioAdmin.php:180
+msgid "Additional model instruction"
+msgstr ""
+
+#: AdminGuide.php:231
+msgid ""
+"After an unsuccessful background embedding request, automatic retries for the same connection "
+"settings are delayed for five minutes. Existing vectors are kept. The daily chat limit does not "
+"limit embedding charges; configure spending controls in the provider account."
+msgstr ""
+
+#: Console.php:120
+msgid ""
+"After saving settings, send one test request using your key. The attempt counts toward the daily "
+"limit."
+msgstr ""
+
+#: AdminGuide.php:167
+msgid ""
+"After saving, the API key field is empty. An empty field keeps only the selected provider’s key. "
+"Remove saved key for this provider clears it. Keys are stored in WordPress settings, so protect "
+"the database and backups. Disable both AI and embeddings to stop automatic AI requests. Manual "
+"connection tests and model-list requests are separate actions."
+msgstr ""
+
+#: AdminGuide.php:226
+msgid ""
+"After testing local search, open AI and answers and save the selected provider’s embedding model."
+" Click Test embedding model to verify one synthetic sentence without writing vectors. Enable "
+"semantic search (embeddings) only after a successful test and consent to charges and data "
+"transfer."
+msgstr ""
+
+#: Console.php:132
+msgid "All questions"
+msgstr ""
+
+#: AdminGuide.php:21
+msgid "All sections"
+msgstr ""
+
+msgid "Always show"
+msgstr ""
+
+#: Frontend.php:41
+msgid "Answer received."
+msgstr ""
+
+#: StudioAdmin.php:177
+msgid "Answer style"
+msgstr ""
+
+#: StudioAdmin.php:234
+msgid ""
+"Appearance preview uses the saved widget language. Save changes to update it. No AI requests are "
+"made."
+msgstr ""
+
+#: StudioAdmin.php:385
+msgid "Are you sure?"
+msgstr ""
+
+#: Settings.php:124
+msgid "Ask a question about this site"
+msgstr ""
+
+#: AdminGuide.php:316
+msgid "Ask about a nonexistent offer — no invented terms or prices."
+msgstr ""
+
+#: StudioAdmin.php:244
+msgid "Assistant"
+msgstr ""
+
+#: StudioAdmin.php:225
+msgid "Assistant name"
+msgstr ""
+
+#: Console.php:44
+msgid "Authentication failed (401). Verify the selected provider key."
+msgstr ""
+
+#: StudioAdmin.php:221
+msgid "Automatic — site or page language"
+msgstr ""
+
+msgid "Available"
+msgstr ""
+
+#: AdminGuide.php:355
+msgid ""
+"Avoid continuous retries; check provider and model limits. Public HTTP 429 can also be the local "
+"IP rate limit."
+msgstr ""
+
+#: AdminGuide.php:48 AdminGuide.php:81 AdminGuide.php:172 AdminGuide.php:222 AdminGuide.php:233
+#: AdminGuide.php:245 AdminGuide.php:260 AdminGuide.php:274 AdminGuide.php:325 AdminGuide.php:387
+#: AdminGuide.php:405 AdminGuide.php:419 AdminGuide.php:430
+msgid "Back to guide contents ↑"
+msgstr ""
+
+msgid "Background color"
+msgstr ""
+
+#: AdminGuide.php:195 StudioAdmin.php:200
+msgid "Batch size"
+msgstr ""
+
+#. translators: %d: index batch size.
+#: StudioAdmin.php:271
+#, python-format
+msgid "Batch: %d"
+msgstr ""
+
+#: AdminGuide.php:267
+msgid ""
+"Before enabling external features, update your privacy policy: questions, public excerpts, URLs, "
+"instructions and recent conversation history are sent to the selected external service; "
+"embeddings send public passages and queries. Review the selected service and underlying model "
+"provider’s terms and privacy policy."
+msgstr ""
+
+msgid "Bottom left"
+msgstr ""
+
+msgid "Bottom right"
+msgstr ""
+
+#: StudioAdmin.php:180
+msgid ""
+"Built-in rules instruct the model to avoid invented facts and ignore prompt injection; these "
+"rules cannot be disabled."
+msgstr ""
+
+msgid "Button content"
+msgstr ""
+
+msgid "Button shape"
+msgstr ""
+
+msgid "Card color"
+msgstr ""
+
+msgid "Cards grid"
+msgstr ""
+
+msgid "Centered dialog"
+msgstr ""
+
+#: StudioAdmin.php:224
+msgid "Change administration language"
+msgstr ""
+
+#: StudioAdmin.php:214
+msgid "Change the administration or site language without resetting the index or saved custom text."
+msgstr ""
+
+#: StudioAdmin.php:172
+msgid ""
+"Changes apply to the next request without reindexing. Model instructions are not executed in "
+"local fallback mode."
+msgstr ""
+
+#: StudioAdmin.php:224
+msgid ""
+"Changes public interface labels only. AI answers follow the visitor’s language. Custom text is "
+"preserved."
+msgstr ""
+
+#: StudioAdmin.php:161
+msgid ""
+"Changing the embedding provider, endpoint or model requires new vectors. Text passages and pinned"
+" answers remain. Existing vectors are replaced gradually after semantic search is enabled."
+msgstr ""
+
+#: AdminGuide.php:347
+msgid "Check authorized models and the server’s outgoing IP address."
+msgstr ""
+
+#: AdminGuide.php:379
+msgid "Check both interface switches, UI mode, theme support,"
+msgstr ""
+
+#: StudioAdmin.php:261
+msgid ""
+"Check common API, sitemap, WP-Cron and answer-mode errors. The guide contains new site acceptance"
+" scenarios."
+msgstr ""
+
+#: AdminGuide.php:220
+msgid "Check passages"
+msgstr ""
+
+#: AdminGuide.php:359
+msgid ""
+"Check provider availability, DNS/TLS and outgoing HTTPS access. For a confirmed timeout, try "
+"increasing the HTTP timeout to 30 seconds and retest once."
+msgstr ""
+
+#: AdminGuide.php:18
+msgid "Check search, conversation, links, costs and privacy."
+msgstr ""
+
+#: AdminGuide.php:367
+msgid ""
+"Check semantic search, key, embedding model permission, balance, standard WP passages and WP-"
+"Cron. Run one batch."
+msgstr ""
+
+#: StudioAdmin.php:91
+msgid "Check text passages before enabling embeddings. They are billed separately from AI answers."
+msgstr ""
+
+#: AdminGuide.php:371
+msgid ""
+"Check the actual XML URL, matching host, absence of redirects, PHP SimpleXML, loopback permission"
+" and HTTP status."
+msgstr ""
+
+#: AdminGuide.php:343
+msgid "Check the balance and budget limits in the selected provider account."
+msgstr ""
+
+#: AdminGuide.php:363
+msgid "Check the daily limit, model test and diagnostic mode. Greetings or thanks can be local."
+msgstr ""
+
+#: AdminGuide.php:351
+msgid ""
+"Check the full model name, protocol and parameter compatibility. Do not set a custom base for a "
+"standard provider."
+msgstr ""
+
+#: AdminGuide.php:339
+msgid ""
+"Check the selected provider key, save without spaces or Bearer, verify it has not been revoked "
+"and check whether a server constant overrides it."
+msgstr ""
+
+#: AdminGuide.php:17
+msgid "Choose a color scheme, placement and assistant name."
+msgstr ""
+
+#: StudioAdmin.php:215
+msgid ""
+"Choose a floating button or shortcode, set the name and color scheme. Check search, limits and "
+"privacy policy before making it available to visitors."
+msgstr ""
+
+#: StudioAdmin.php:121
+msgid ""
+"Choose a provider independently of the site language. Switching restores its saved connection "
+"profile and pauses AI and embeddings until you explicitly enable them again."
+msgstr ""
+
+msgid ""
+"Choose custom accent, background, card and text colors if needed. Check text contrast yourself. "
+"The mobile preview and saved widget language are examples, not a substitute for testing on the "
+"real site. Save interface and clear caches if changes are not visible."
+msgstr ""
+
+msgid ""
+"Choose icon and text, icon only or text only for the button. A circular button shows the icon. "
+"Mobile placement can inherit desktop placement or use its own corner."
+msgstr ""
+
+msgid ""
+"Choose one of four window layouts: centered dialog, right panel, left panel or full screen. Width"
+" is 360–1100 px, maximum height 420–1200 px, offsets 8–96 px and corner radius 0–32 px. The "
+"actual size is constrained by the viewport."
+msgstr ""
+
+msgid ""
+"Choose the public sources that search and the assistant may use. No plugin files or arbitrary "
+"database tables are read."
+msgstr ""
+
+msgid "Circle (icon only)"
+msgstr ""
+
+#: StudioAdmin.php:208
+msgid "Clear index"
+msgstr ""
+
+#: StudioAdmin.php:253
+msgid "Clear logs"
+msgstr ""
+
+#: StudioAdmin.php:208
+msgid ""
+"Clearing deletes both search indexes and embeddings, invalidates pinned passage IDs and stops the"
+" queue. Site content and sitemap are unchanged. Back up the database first."
+msgstr ""
+
+#: AdminGuide.php:164
+msgid ""
+"Click Save AI settings. Under Connection test, click Test answer model. A successful test "
+"displays a response from the configured model. This uses a potentially billable attempt counted "
+"against the daily limit. AI configured indicates configuration only, not a verified connection."
+msgstr ""
+
+#: AdminGuide.php:241
+msgid ""
+"Click Save RAG and instructions. Rules apply to the next model request without reindexing. Update"
+" facts such as prices in published content, not in instructions. AI instructions are not executed"
+" in local fallback mode."
+msgstr ""
+
+#: AdminGuide.php:315
+msgid "Click a suggested navigation button — it opens the correct existing page."
+msgstr ""
+
+#: Frontend.php:98
+msgid "Close"
+msgstr ""
+
+#: StudioAdmin.php:230
+msgid "Color scheme"
+msgstr ""
+
+msgid ""
+"Color scheme: light, dark, high contrast, system or custom colors. Use the preview. New "
+"installations default to the system scheme."
+msgstr ""
+
+msgid "Compact links"
+msgstr ""
+
+#: AdminGuide.php:271
+msgid "Configure AI limits"
+msgstr ""
+
+#: StudioAdmin.php:168
+msgid "Configure conversation rules"
+msgstr ""
+
+#: AdminGuide.php:230
+msgid "Configure embeddings"
+msgstr ""
+
+#: StudioAdmin.php:119
+msgid "Connect an AI provider"
+msgstr ""
+
+msgid "Connect public catalogs"
+msgstr ""
+
+#: StudioAdmin.php:125
+msgid ""
+"Connection settings are controlled by server constants. Remove or update those constants before "
+"switching providers."
+msgstr ""
+
+#: StudioAdmin.php:298
+msgid "Connection settings changed. Reload the AI page before saving."
+msgstr ""
+
+#: Console.php:69 Console.php:120
+msgid "Connection test"
+msgstr ""
+
+#: Settings.php:127
+msgid ""
+"Consider the visitor’s stated goal. Ask at most one clarifying question per answer. Suggest a "
+"relevant next step supported by the site."
+msgstr ""
+
+#: StudioAdmin.php:228
+msgid "Conversation memory"
+msgstr ""
+
+#: AdminGuide.php:254
+msgid ""
+"Conversation memory is enabled by default: four turn pairs, 45-minute TTL. Use New question for a"
+" fresh conversation. Test follow-ups in the public interface: admin tests do not save "
+"conversations."
+msgstr ""
+
+#: StudioAdmin.php:179
+msgid "Conversation style"
+msgstr ""
+
+#: AdminGuide.php:70
+msgid "Copy the secret"
+msgstr ""
+
+msgid "Corner radius, px"
+msgstr ""
+
+#: Console.php:139
+msgid "Correct an answer"
+msgstr ""
+
+#: Frontend.php:52
+msgid "Could not get an answer. Please try again."
+msgstr ""
+
+#: Frontend.php:45
+msgid "Could not save rating"
+msgstr ""
+
+#: Indexer.php:192
+msgid "Crawling is disabled."
+msgstr ""
+
+#: StudioAdmin.php:119
+msgid ""
+"Create a separate key, set a budget and authorize required models. After saving settings, test "
+"the model at the bottom of this page."
+msgstr ""
+
+#: AdminGuide.php:55
+msgid ""
+"Create an OpenAI API account in a supported country or region. Set up project billing and create "
+"a project key:"
+msgstr ""
+
+#: AdminGuide.php:61
+msgid "Create an OpenRouter account, check its applicable terms and funding options, and generate a key:"
+msgstr ""
+
+#: StudioAdmin.php:271
+msgid "Cron index"
+msgstr ""
+
+#: AdminGuide.php:199 StudioAdmin.php:201
+msgid "Cron interval, minutes"
+msgstr ""
+
+#: StudioAdmin.php:107
+msgid "Current site sitemap."
+msgstr ""
+
+#: AdminGuide.php:107 StudioAdmin.php:144
+msgid "Custom API base"
+msgstr ""
+
+#: AdminGuide.php:75 StudioAdmin.php:123
+msgid "Custom OpenAI-compatible endpoint"
+msgstr ""
+
+msgid "Custom colors"
+msgstr ""
+
+msgid ""
+"Custom colors apply only with the Custom colors scheme. The preview shows a sample launcher and "
+"materials, without API calls."
+msgstr ""
+
+#: StudioAdmin.php:267
+msgid "DB tables"
+msgstr ""
+
+#: StudioAdmin.php:231
+msgid "Dark"
+msgstr ""
+
+#: StudioAdmin.php:396
+msgid "Data cleared."
+msgstr ""
+
+#: StudioAdmin.php:178
+msgid "Data handling"
+msgstr ""
+
+#: StudioAdmin.php:249
+msgid "Data retention and costs"
+msgstr ""
+
+#: AdminGuide.php:412
+msgid ""
+"Default interface labels are translated automatically. Previously saved labels, suggested "
+"questions and custom RAG instructions remain unchanged. Edit custom text explicitly or use "
+"Restore translated default labels in the Interface tab. Changing language does not translate "
+"indexed content or require rebuilding embeddings."
+msgstr ""
+
+#: StudioAdmin.php:236
+msgid ""
+"Default labels follow the widget language. Saved custom text stays unchanged when the language "
+"changes."
+msgstr ""
+
+msgid "Design Studio"
+msgstr ""
+
+msgid "Detected sources"
+msgstr ""
+
+#: StudioAdmin.php:68 StudioAdmin.php:263
+msgid "Diagnostics"
+msgstr ""
+
+#: AdminGuide.php:77
+msgid ""
+"Do not use another provider’s key for a custom endpoint. Changing its base URL clears the saved "
+"key unless a new key is entered. Check the provider’s terms, privacy and billing before any test."
+msgstr ""
+
+#: StudioAdmin.php:267
+msgid "Document, passage and log tables"
+msgstr ""
+
+#: StudioAdmin.php:99 StudioAdmin.php:190
+msgid "Documents"
+msgstr ""
+
+#: Console.php:155
+msgid "Documents:"
+msgstr ""
+
+#. translators: 1: document count, 2: passage count.
+#: StudioAdmin.php:272
+msgid "Documents: %1$d / passages: %2$d"
+msgstr ""
+
+#: AdminGuide.php:159 StudioAdmin.php:159
+msgid "Embedding model"
+msgstr ""
+
+#. translators: %d: vector dimension.
+#: Console.php:81
+#, python-format
+msgid "Embedding test passed: %d dimensions."
+msgstr ""
+
+#: AdminGuide.php:228
+msgid ""
+"Embeddings do not train AI weights. They are numerical representations of text used to find "
+"semantically similar passages. They are billed separately and may be sent even when external chat"
+" is disabled if semantic search is enabled. The chat request limit does not cap embedding costs. "
+"Disable semantic search to stop these requests."
+msgstr ""
+
+#: AdminGuide.php:400
+msgid "Embeddings:"
+msgstr ""
+
+#: AdminGuide.php:140
+msgid "Empty"
+msgstr ""
+
+msgid "Enable embeddings for additional sources"
+msgstr ""
+
+msgid ""
+"Enable embeddings for additional sources only after checking provider costs. Changes are detected"
+" from current public content; removed, hidden or disconnected objects are excluded immediately. "
+"Old vectors are not used for changed content."
+msgstr ""
+
+#: AdminGuide.php:95 StudioAdmin.php:140
+msgid "Enable external AI"
+msgstr ""
+
+#: Console.php:130
+msgid ""
+"Enable logging in settings. Filters help investigate questions with no results and negative "
+"ratings."
+msgstr ""
+
+#: StudioAdmin.php:218
+msgid "Enable public interface"
+msgstr ""
+
+#: StudioAdmin.php:217
+msgid "Enable search"
+msgstr ""
+
+#: AdminGuide.php:155 StudioAdmin.php:158
+msgid "Enable semantic search (embeddings)"
+msgstr ""
+
+#: Indexer.php:47
+msgid "Enable sitemap crawling in the index settings."
+msgstr ""
+
+#: Console.php:48
+msgid "Endpoint or model not found (404). Verify the model and protocol."
+msgstr ""
+
+#: Console.php:106
+msgid "Enter a question and the ID of an existing public passage."
+msgstr ""
+
+#: Frontend.php:96 StudioAdmin.php:244
+msgid "Enter a question or the name of a resource."
+msgstr ""
+
+#: Search.php:51
+msgid "Enter a search query."
+msgstr ""
+
+#: StudioAdmin.php:146
+msgid ""
+"Enter the key without Bearer or quotes. An empty field keeps only the selected provider’s saved "
+"key."
+msgstr ""
+
+#: StudioAdmin.php:254 StudioAdmin.php:265
+msgid "Error"
+msgstr ""
+
+#: StudioAdmin.php:373
+msgid "Error:"
+msgstr ""
+
+#: StudioAdmin.php:190
+msgid "Errors"
+msgstr ""
+
+#: AdminGuide.php:401
+msgid "Errors:"
+msgstr ""
+
+msgid "Example material"
+msgstr ""
+
+#: StudioAdmin.php:244
+msgid "Example question"
+msgstr ""
+
+#: StudioAdmin.php:108
+msgid "External AI"
+msgstr ""
+
+#: AdminGuide.php:297
+msgid "External AI error; fallback answer returned"
+msgstr ""
+
+#: AdminGuide.php:289
+msgid "External model response received"
+msgstr ""
+
+#: Frontend.php:39 Frontend.php:103 StudioAdmin.php:244
+msgid "Find an answer"
+msgstr ""
+
+#: Console.php:159
+msgid "Find passage by text"
+msgstr ""
+
+#: StudioAdmin.php:89
+msgid "Find public passage IDs and learn how to pin or unpin a correction."
+msgstr ""
+
+#: Console.php:139
+msgid "Find suitable text under Passages and vectors. Pinning ranks it first for the specified question."
+msgstr ""
+
+msgid "Floating button visibility"
+msgstr ""
+
+msgid ""
+"For a site-wide floating button, choose the floating UI mode and automatic button visibility. The"
+" theme must call"
+msgstr ""
+
+#: StudioAdmin.php:364
+msgid "For example: what information is available here?"
+msgstr ""
+
+msgid "For shortcode only, choose that mode with automatic button visibility and place"
+msgstr ""
+
+#: AdminGuide.php:168
+msgid "For system administrators: this build supports the server constant"
+msgstr ""
+
+#: StudioAdmin.php:113
+msgid ""
+"For the first run, open Index and synchronize WordPress content. Additional pages are indexed "
+"through the sitemap."
+msgstr ""
+
+#: AdminGuide.php:219
+msgid ""
+"For virtual search results, the plugin checks up to three matching URLs per query with a two-"
+"second timeout per URL, without visitor cookies or redirects. A changed or inaccessible source is"
+" omitted until its public content matches the index again. Temporary HTTP 403, 429, 5xx or "
+"network errors pause crawling without discarding the queued URLs. Resume after resolving the "
+"error."
+msgstr ""
+
+#: AdminGuide.php:10
+msgid ""
+"From installation to the first answer: connect an AI provider if needed, prepare the knowledge "
+"base, choose the appearance and check the results. Local text search needs no API key."
+msgstr ""
+
+#: StudioAdmin.php:263
+msgid "Full query test"
+msgstr ""
+
+msgid "Full screen"
+msgstr ""
+
+#: StudioAdmin.php:269
+msgid "Gateway endpoint"
+msgstr ""
+
+#: StudioAdmin.php:134
+msgid "Get API key"
+msgstr ""
+
+#: Settings.php:125
+msgid "Give a direct answer first. Be concise and clear. For complex questions, use clear steps."
+msgstr ""
+
+#: AdminGuide.php:79
+msgid "Go to AI settings"
+msgstr ""
+
+#: StudioAdmin.php:68
+msgid "Guide"
+msgstr ""
+
+#: AdminGuide.php:21
+msgid "Guide contents"
+msgstr ""
+
+#: AdminGuide.php:123 StudioAdmin.php:150
+msgid "HTTP timeout, seconds"
+msgstr ""
+
+#: StudioAdmin.php:144
+msgid "HTTPS only. Changing the endpoint clears the old key unless a new key is entered."
+msgstr ""
+
+#: AdminGuide.php:311
+msgid "Hello and What do you offer? — correct name, subject and first-person site voice."
+msgstr ""
+
+#: StudioAdmin.php:244
+msgid "Hello! You can find our published materials and open the relevant page."
+msgstr ""
+
+#: Console.php:138 Frontend.php:42
+msgid "Helpful"
+msgstr ""
+
+#: StudioAdmin.php:231
+msgid "High contrast"
+msgstr ""
+
+msgid "Horizontal carousel"
+msgstr ""
+
+msgid "Horizontal offset, px"
+msgstr ""
+
+#: Settings.php:123
+msgid "How can we help?"
+msgstr ""
+
+msgid "Icon and text"
+msgstr ""
+
+msgid "Icon only"
+msgstr ""
+
+#: AdminGuide.php:181
+msgid ""
+"If content is not stored in standard posts/pages, check the XML sitemap in your browser. For "
+"example,"
+msgstr ""
+
+msgid ""
+"In Design Studio, choose desktop and mobile button placement, visibility, shape, window size and "
+"material layout. Always show overrides theme integration and shortcode-only mode; Never show "
+"hides only the floating button, not the shortcode or search API. Custom colors apply only to the "
+"Custom colors scheme. The sample preview uses no AI requests."
+msgstr ""
+
+#: AdminGuide.php:278
+msgid ""
+"In Diagnostics, check PHP, WordPress, database tables, REST, gateway endpoint and index cron. "
+"Then test a question from a real published page. A live AI test should show"
+msgstr ""
+
+#: AdminGuide.php:249
+msgid ""
+"In Interface, set the assistant name (for example, the site name), launcher label, panel title, "
+"placeholder and minimum query length of 2. Enter suggested questions one per line; up to five are"
+" displayed. Choose questions your site can actually answer."
+msgstr ""
+
+#: AdminGuide.php:227
+msgid ""
+"In Passages and vectors, check the active model’s vector count. With WP-Cron running, up to 12 "
+"passages per batch are sent about once a minute. Use Process next batch for testing. Wait for "
+"vectors, then try a paraphrased query without exact word matches. A different provider, endpoint "
+"or embedding model requires replacement vectors. Existing text passages and pinned answer IDs are"
+" preserved; switching back after replacement requires rebuilding the former vectors."
+msgstr ""
+
+#: AdminGuide.php:40
+msgid "In WordPress: Plugins → Add Plugin → Upload Plugin. Choose the"
+msgstr ""
+
+#: AdminGuide.php:309
+msgid "In a private browser window as a logged-out visitor, test on desktop and mobile:"
+msgstr ""
+
+#: StudioAdmin.php:99
+msgid "In the current search index"
+msgstr ""
+
+#: AdminGuide.php:71
+msgid "In the key settings, authorize the required models:"
+msgstr ""
+
+#: AdminGuide.php:374
+msgid "Incorrect answer while AI is working"
+msgstr ""
+
+#: StudioAdmin.php:68 StudioAdmin.php:272
+msgid "Index"
+msgstr ""
+
+#: StudioAdmin.php:206
+msgid "Index blog posts"
+msgstr ""
+
+#: AdminGuide.php:16
+msgid "Index posts and pages; enable sitemap indexing and vectors if needed."
+msgstr ""
+
+#: StudioAdmin.php:102
+msgid "Index queue"
+msgstr ""
+
+#: StudioAdmin.php:205
+msgid "Index standard WordPress pages"
+msgstr ""
+
+#: Console.php:155
+msgid "Index status"
+msgstr ""
+
+#: AdminGuide.php:185
+msgid "Indexer setting"
+msgstr ""
+
+#: StudioAdmin.php:198
+msgid "Indexer settings"
+msgstr ""
+
+#. translators: 1: input tokens, 2: output tokens.
+#: StudioAdmin.php:373
+msgid "Input tokens: %1$d / output tokens: %2$d"
+msgstr ""
+
+#: Console.php:57
+msgid "Insufficient permissions."
+msgstr ""
+
+#: AdminGuide.php:17 StudioAdmin.php:68
+msgid "Interface"
+msgstr ""
+
+#: StudioAdmin.php:216
+msgid "Interface and behavior"
+msgstr ""
+
+#: AdminGuide.php:89
+msgid "Interface field"
+msgstr ""
+
+#: Console.php:49
+msgid "Invalid request (400). Verify model and parameter compatibility."
+msgstr ""
+
+#: Knowledge.php:106
+msgid "Invalid vector in the provider response."
+msgstr ""
+
+#: Knowledge.php:109
+msgid "Invalid vector magnitude."
+msgstr ""
+
+#: AdminGuide.php:208
+msgid "Keep the default"
+msgstr ""
+
+#: StudioAdmin.php:146
+msgid "Key saved — leave empty to keep it"
+msgstr ""
+
+#: AdminGuide.php:398
+msgid "Keys and budgets:"
+msgstr ""
+
+#: AdminGuide.php:16
+msgid "Knowledge base"
+msgstr ""
+
+msgid "Knowledge sources"
+msgstr ""
+
+#: StudioAdmin.php:214
+msgid "Languages and translations"
+msgstr ""
+
+#: StudioAdmin.php:272
+msgid "Last error: "
+msgstr ""
+
+#: StudioAdmin.php:109
+msgid "Last indexed"
+msgstr ""
+
+#: StudioAdmin.php:254
+msgid "Latency"
+msgstr ""
+
+#: StudioAdmin.php:225
+msgid "Launcher label"
+msgstr ""
+
+msgid "Launcher position"
+msgstr ""
+
+msgid "Left side panel"
+msgstr ""
+
+#: StudioAdmin.php:231
+msgid "Light"
+msgstr ""
+
+#: StudioAdmin.php:135
+msgid "Limits and costs"
+msgstr ""
+
+#: AdminGuide.php:211 StudioAdmin.php:204
+msgid "Load additional pages from sitemap"
+msgstr ""
+
+#: Console.php:126
+msgid "Load model list"
+msgstr ""
+
+#: AdminGuide.php:166
+msgid ""
+"Load model list retrieves model identifiers with your saved key. The list may contain models that"
+" are not compatible with text chat or embeddings. You can always enter the exact identifier "
+"manually. Test the model after saving. GPT-5/6 Chat Completions do not send Temperature or Top P;"
+" Responses can send Reasoning effort when configured. Increase the output token limit if a "
+"reasoning model returns no visible answer."
+msgstr ""
+
+#: StudioAdmin.php:192
+msgid "Load sitemap and start"
+msgstr ""
+
+#: AdminGuide.php:301
+msgid "Local greeting, overview or thanks"
+msgstr ""
+
+#: AdminGuide.php:293
+msgid "Local results without generation (including when the limit is reached)"
+msgstr ""
+
+#: Frontend.php:49
+msgid "Local search results."
+msgstr ""
+
+#: StudioAdmin.php:205 StudioAdmin.php:206
+msgid "Locally, without HTTP."
+msgstr ""
+
+#: AdminGuide.php:268
+msgid ""
+"Logging is off by default. If quality monitoring is needed, enable it for a limited time and set "
+"retention (for example, 7–30 days). Do not submit sensitive text. Conversation memory stores a "
+"short exchange in temporary WordPress data, not a customer profile."
+msgstr ""
+
+#: StudioAdmin.php:249
+msgid "Logging is optional. Enable it deliberately, set retention and consider the site’s privacy policy."
+msgstr ""
+
+#: StudioAdmin.php:68
+msgid "Logs"
+msgstr ""
+
+#: StudioAdmin.php:217
+msgid "Main API and UI switch."
+msgstr ""
+
+#: StudioAdmin.php:208
+msgid "Maintenance"
+msgstr ""
+
+msgid "Material layout"
+msgstr ""
+
+#: Console.php:69
+msgid "Material name: Connection test."
+msgstr ""
+
+msgid ""
+"Materials can use a card grid, vertical list, horizontal carousel or compact links. AI answers "
+"show cards only for cited public sources; local search still shows matching results. Covers are "
+"optional public image URLs on the same site; missing or unsupported covers use an icon. Check "
+"real links and long answers on desktop and mobile after saving."
+msgstr ""
+
+#: AdminGuide.php:119 StudioAdmin.php:149
+msgid "Max output tokens"
+msgstr ""
+
+msgid "Maximum window height, px"
+msgstr ""
+
+#: AdminGuide.php:283
+msgid "Meaning"
+msgstr ""
+
+#: StudioAdmin.php:110
+msgid "Memory"
+msgstr ""
+
+#: StudioAdmin.php:229
+msgid "Memory TTL, minutes"
+msgstr ""
+
+#: StudioAdmin.php:225
+msgid "Minimum query length"
+msgstr ""
+
+#: AdminGuide.php:378
+msgid "Missing button or widget"
+msgstr ""
+
+msgid "Mobile launcher position"
+msgstr ""
+
+msgid "Mobile preview"
+msgstr ""
+
+#: AdminGuide.php:282 Console.php:137 StudioAdmin.php:254
+msgid "Mode"
+msgstr ""
+
+#: StudioAdmin.php:372
+msgid "Mode:"
+msgstr ""
+
+#: AdminGuide.php:115 StudioAdmin.php:148 StudioAdmin.php:254
+msgid "Model"
+msgstr ""
+
+#: AdminGuide.php:392 AdminGuide.php:393 StudioAdmin.php:134
+msgid "Model catalog"
+msgstr ""
+
+#. translators: %d: number of model identifiers.
+#: Console.php:91
+#, python-format
+msgid "Model list loaded: %d identifiers. Choose or enter a compatible model manually."
+msgstr ""
+
+#: AdminGuide.php:399
+msgid "Models:"
+msgstr ""
+
+#: Console.php:51
+msgid "Network request failed. Check DNS, TLS and server connectivity."
+msgstr ""
+
+msgid "Never show"
+msgstr ""
+
+#: Frontend.php:97 StudioAdmin.php:244
+msgid "New question"
+msgstr ""
+
+#: AdminGuide.php:317
+msgid "New question — a fresh conversation without old context."
+msgstr ""
+
+msgid "Next materials"
+msgstr ""
+
+#: AdminGuide.php:152
+msgid "No"
+msgstr ""
+
+msgid "No additional sources detected."
+msgstr ""
+
+#: StudioAdmin.php:255
+msgid "No logs yet."
+msgstr ""
+
+#: Console.php:147
+msgid "No matching results for this query."
+msgstr ""
+
+#: StudioAdmin.php:157
+msgid "No query text in headers; technical tag/environment/session metadata only."
+msgstr ""
+
+#: AdminGuide.php:305
+msgid "No relevant local result; navigation suggestions may appear"
+msgstr ""
+
+#: Console.php:132
+msgid "No results"
+msgstr ""
+
+#: StudioAdmin.php:101
+msgid "No results: "
+msgstr ""
+
+#: Console.php:132 Console.php:138 Frontend.php:43
+msgid "Not helpful"
+msgstr ""
+
+#: StudioAdmin.php:102
+msgid "Not started"
+msgstr ""
+
+#: AdminGuide.php:156
+msgid "Not yet"
+msgstr ""
+
+#: AdminGuide.php:14
+msgid "Obtain your own key and set a budget."
+msgstr ""
+
+#: StudioAdmin.php:226
+msgid ""
+"On save, reset only the launcher label, panel title and placeholder. Other custom settings are "
+"retained."
+msgstr ""
+
+#: AdminGuide.php:319
+msgid ""
+"On staging, disable chat and verify local search still works; also disable embeddings for a fully"
+" local test. Restore the desired settings afterward."
+msgstr ""
+
+#: AdminGuide.php:256
+msgid ""
+"On staging, enable search and the public interface, then click Save interface. Enable these on a "
+"live site only after preparation and with budget controls. Clear site caches if placement changes"
+" are not visible."
+msgstr ""
+
+#: StudioAdmin.php:394
+msgid "One queue batch processed."
+msgstr ""
+
+#: AdminGuide.php:165
+msgid ""
+"Only Custom needs a manually entered base URL. Chat Completions and embeddings append their "
+"respective paths; Responses is optional for compatible providers other than OpenRouter in this "
+"integration."
+msgstr ""
+
+msgid ""
+"Only enable content that anonymous visitors are allowed to read. Membership-controlled content "
+"requires a visibility-aware connector."
+msgstr ""
+
+msgid ""
+"Only enable sources that are genuinely public. The plugin does not scan plugin PHP files, "
+"arbitrary tables, private metadata or authenticated REST endpoints. Ask the source developer for "
+"a connector if its data is not listed."
+msgstr ""
+
+#: AdminGuide.php:108
+msgid "Only for Custom; public HTTPS base URL"
+msgstr ""
+
+#: AdminGuide.php:67
+msgid "Open"
+msgstr ""
+
+#: AdminGuide.php:170
+msgid "Open AI and answers"
+msgstr ""
+
+#: AdminGuide.php:411
+msgid ""
+"Open Interface and behavior → Widget language. Choose Automatic (site or page language), English "
+"or Russian and save. The choice also applies to public REST messages. The bundled Russian widget "
+"translation works even if the WordPress Russian language pack is not installed."
+msgstr ""
+
+msgid ""
+"Open Knowledge sources, review detected public post types, taxonomies and registered connectors, "
+"select the sources you want and save. Local text search works immediately without an API key. The"
+" profile is built from current public objects."
+msgstr ""
+
+#: AdminGuide.php:178
+msgid ""
+"Open Passages and vectors and check the document and passage counts. Use Find passage by text to "
+"locate known published text. Background text indexing runs in batches of 25 posts through WP-"
+"Cron; Process next batch runs one step manually. For very large sites, prefer background indexing"
+" over a full manual sync in one HTTP request."
+msgstr ""
+
+#: AdminGuide.php:243 AdminGuide.php:417
+msgid "Open RAG and instructions"
+msgstr ""
+
+#: AdminGuide.php:237
+msgid ""
+"Open RAG and instructions. Initial values: 8 RAG sources and 18,000 context characters. Keep the "
+"built-in answer, data and conversation rules unless customization is needed. You can enter the "
+"following additional instruction, adapting it to your site:"
+msgstr ""
+
+#: AdminGuide.php:177
+msgid ""
+"Open Site Search → Index. Enable Index standard WordPress pages and, if applicable, Index blog "
+"posts. Leave Load additional pages from sitemap disabled. Click Save index settings, then "
+"Synchronize WordPress content."
+msgstr ""
+
+#: AdminGuide.php:323 AdminGuide.php:385
+msgid "Open diagnostics"
+msgstr ""
+
+#: StudioAdmin.php:46
+msgid "Open guide"
+msgstr ""
+
+#: AdminGuide.php:219
+msgid "Open index settings"
+msgstr ""
+
+#: AdminGuide.php:46 AdminGuide.php:258 AdminGuide.php:416
+msgid "Open interface settings"
+msgstr ""
+
+#: AdminGuide.php:272 AdminGuide.php:426
+msgid "Open logs"
+msgstr ""
+
+#: Frontend.php:36 StudioAdmin.php:244
+msgid "Open page"
+msgstr ""
+
+#: Frontend.php:47
+msgid "Open page →"
+msgstr ""
+
+#: AdminGuide.php:231 AdminGuide.php:427
+msgid "Open passages and vectors"
+msgstr ""
+
+#: AdminGuide.php:428
+msgid "Open quality tools"
+msgstr ""
+
+#: StudioAdmin.php:397
+msgid "Operation failed"
+msgstr ""
+
+#: StudioAdmin.php:68
+msgid "Overview"
+msgstr ""
+
+#: AdminGuide.php:179
+msgid ""
+"Overview and Index show combined document and passage counts from both index systems; the same "
+"page may be counted twice. Passages and vectors shows the separate standard WordPress passage "
+"index. Use actual search results to verify readiness. Clearing the index removes both indexes and"
+" embeddings; it also invalidates pinned passage IDs. To rebuild standard passages after clearing,"
+" use Recheck all pages under Passages and vectors."
+msgstr ""
+
+#: AdminGuide.php:203 StudioAdmin.php:202
+msgid "Page timeout, seconds"
+msgstr ""
+
+#: StudioAdmin.php:225
+msgid "Panel title"
+msgstr ""
+
+#: Console.php:137
+msgid "Passage"
+msgstr ""
+
+#: Console.php:141
+msgid "Passage ID"
+msgstr ""
+
+#: StudioAdmin.php:100
+msgid "Passages"
+msgstr ""
+
+#: StudioAdmin.php:68
+msgid "Passages and vectors"
+msgstr ""
+
+#: StudioAdmin.php:102 StudioAdmin.php:194
+msgid "Pause"
+msgstr ""
+
+#: Console.php:47
+msgid "Payment required (402). Check the provider balance."
+msgstr ""
+
+msgid "Pill"
+msgstr ""
+
+#: Console.php:141
+msgid "Pin"
+msgstr ""
+
+#: StudioAdmin.php:225
+msgid "Placeholder"
+msgstr ""
+
+#: StudioAdmin.php:187
+msgid "Populate the knowledge base"
+msgstr ""
+
+#: AdminGuide.php:13
+msgid "Preparation"
+msgstr ""
+
+#: StudioAdmin.php:91
+msgid "Prepare semantic search"
+msgstr ""
+
+msgid "Previous materials"
+msgstr ""
+
+#: AdminGuide.php:392
+msgid "Pricing"
+msgstr ""
+
+#: AdminGuide.php:393
+msgid "Privacy"
+msgstr ""
+
+#: Frontend.php:106
+msgid "Privacy policy"
+msgstr ""
+
+#: AdminGuide.php:403
+msgid "Privacy:"
+msgstr ""
+
+#: StudioAdmin.php:193
+msgid "Process batch now"
+msgstr ""
+
+#: Console.php:158
+msgid "Process next batch"
+msgstr ""
+
+#: StudioAdmin.php:191
+msgid "Progress:"
+msgstr ""
+
+#: AdminGuide.php:139 StudioAdmin.php:154
+msgid "Prompt cache key"
+msgstr ""
+
+#: AdminGuide.php:103 StudioAdmin.php:141
+msgid "Protocol"
+msgstr ""
+
+#: AdminGuide.php:99 StudioAdmin.php:122
+msgid "Provider"
+msgstr ""
+
+#: AdminGuide.php:266
+msgid ""
+"Provider balance, billing limits and plugin request limits are separate controls. Monitor actual "
+"token usage, including history, RAG context and embeddings."
+msgstr ""
+
+#: Console.php:50
+msgid "Provider server error. Try again later."
+msgstr ""
+
+#: StudioAdmin.php:326
+msgid "Provider switching is unavailable for this configuration."
+msgstr ""
+
+#: StudioAdmin.php:123
+msgid "ProxyAPI.ru · compatible (legacy)"
+msgstr ""
+
+msgid "Public site profile"
+msgstr ""
+
+#: StudioAdmin.php:68
+msgid "Quality"
+msgstr ""
+
+#: StudioAdmin.php:252
+msgid "Queries may contain user text — set a reasonable retention period."
+msgstr ""
+
+#: StudioAdmin.php:254
+msgid "Query"
+msgstr ""
+
+#: Console.php:137 Console.php:141 Frontend.php:101
+msgid "Question"
+msgstr ""
+
+#: Console.php:130
+msgid "Questions within the retention period"
+msgstr ""
+
+#: StudioAdmin.php:190
+msgid "Queue"
+msgstr ""
+
+#: AdminGuide.php:397
+msgid "Quick start:"
+msgstr ""
+
+#: StudioAdmin.php:113
+msgid "Quick test"
+msgstr ""
+
+#: StudioAdmin.php:171
+msgid "RAG and assistant instructions"
+msgstr ""
+
+#: StudioAdmin.php:68
+msgid "RAG and instructions"
+msgstr ""
+
+#: StudioAdmin.php:100
+msgid "RAG chunks"
+msgstr ""
+
+#: StudioAdmin.php:175
+msgid "RAG context characters"
+msgstr ""
+
+#: StudioAdmin.php:174
+msgid "RAG sources"
+msgstr ""
+
+#: StudioAdmin.php:218
+msgid "REST may remain available when the UI is disabled."
+msgstr ""
+
+#: Console.php:46
+msgid "Rate limit or quota exceeded (429). Check the provider account."
+msgstr ""
+
+#: Console.php:137
+msgid "Rating"
+msgstr ""
+
+#: web27-site-search.php:76
+msgid "Rating is unavailable."
+msgstr ""
+
+#: Frontend.php:44
+msgid "Rating saved"
+msgstr ""
+
+#: AdminGuide.php:135 StudioAdmin.php:153
+msgid "Reasoning effort"
+msgstr ""
+
+#: StudioAdmin.php:254
+msgid "Recent queries"
+msgstr ""
+
+#: Console.php:158
+msgid "Recheck all pages"
+msgstr ""
+
+#: AdminGuide.php:186
+msgid "Recommendation"
+msgstr ""
+
+#: AdminGuide.php:90
+msgid "Recommended starting value"
+msgstr ""
+
+#: Frontend.php:46
+msgid "Related materials"
+msgstr ""
+
+#: StudioAdmin.php:147
+msgid "Remove saved key for this provider"
+msgstr ""
+
+#: AdminGuide.php:147 StudioAdmin.php:156
+msgid "Requests / 10 minutes / IP"
+msgstr ""
+
+#: StudioAdmin.php:101
+msgid "Requests in 24 hours"
+msgstr ""
+
+msgid ""
+"Requires the main semantic search setting and a configured embedding model. Background indexing "
+"sends up to six public objects per scheduled run; charges may apply."
+msgstr ""
+
+msgid "Respect theme and UI mode"
+msgstr ""
+
+#. translators: 1: model name, 2: answer excerpt.
+#: Console.php:70
+msgid "Response from %1$s: %2$s"
+msgstr ""
+
+#: StudioAdmin.php:226
+msgid "Restore translated default labels"
+msgstr ""
+
+#: AdminGuide.php:13
+msgid "Restrict access during setup and check the site name."
+msgstr ""
+
+#: StudioAdmin.php:254
+msgid "Results"
+msgstr ""
+
+#: StudioAdmin.php:194
+msgid "Resume"
+msgstr ""
+
+#: StudioAdmin.php:253
+msgid "Retention, days"
+msgstr ""
+
+#: StudioAdmin.php:89
+msgid "Review and correct answers"
+msgstr ""
+
+#: AdminGuide.php:375
+msgid ""
+"Review source text, RAG and the index; correct the publication. Under Quality, pin a relevant "
+"standard WP passage to a specific question."
+msgstr ""
+
+msgid "Right side panel"
+msgstr ""
+
+msgid "Rounded rectangle"
+msgstr ""
+
+#: StudioAdmin.php:364
+msgid "Run test"
+msgstr ""
+
+#: StudioAdmin.php:102
+msgid "Running"
+msgstr ""
+
+#: Frontend.php:96 StudioAdmin.php:244
+msgid "SITE SEARCH"
+msgstr ""
+
+msgid "Same as desktop"
+msgstr ""
+
+msgid "Sample limit reached"
+msgstr ""
+
+#: StudioAdmin.php:253
+msgid "Save"
+msgstr ""
+
+#: StudioAdmin.php:162
+msgid "Save AI settings"
+msgstr ""
+
+#: StudioAdmin.php:181
+msgid "Save RAG and instructions"
+msgstr ""
+
+#: Console.php:52
+msgid "Save a valid endpoint, model and key first."
+msgstr ""
+
+#: StudioAdmin.php:207
+msgid "Save index settings"
+msgstr ""
+
+#: AdminGuide.php:216
+msgid ""
+"Save index settings. Click Load sitemap and start. Monitor the queue, successful URLs and errors."
+" Use Process batch now for a single step. On 403/429, repeated network errors or hosting "
+"overload, stop or pause the queue and resolve the cause. Avoid repeated full crawls. If URLs "
+"change, verify the sitemap before refreshing the queue."
+msgstr ""
+
+#: StudioAdmin.php:182
+msgid "Save instructions first, then ask a question. The test indicates external AI or fallback mode."
+msgstr ""
+
+#: StudioAdmin.php:237
+msgid "Save interface"
+msgstr ""
+
+#: StudioAdmin.php:252
+msgid "Save query logs"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+#: AdminGuide.php:11
+msgid ""
+"Save settings on their respective tabs. Do not uninstall the plugin when upgrading: uninstalling "
+"removes its local data."
+msgstr ""
+
+#: AdminGuide.php:57
+msgid ""
+"Save settings, then load models or run the separate answer and embedding connection tests. "
+"Availability and billing depend on your project."
+msgstr ""
+
+#: AdminGuide.php:15
+msgid "Save the key and test the model."
+msgstr ""
+
+#: Console.php:127
+msgid ""
+"Save the key before loading models. Catalogs may include unsupported models; manual entry and "
+"connection tests remain available. No visitor content is sent for the catalog."
+msgstr ""
+
+#: Console.php:64
+msgid "Save the key, model and permission for AI answers."
+msgstr ""
+
+#: Console.php:167
+msgid "Search"
+msgstr ""
+
+#: Search.php:48
+msgid "Search is disabled."
+msgstr ""
+
+#: StudioAdmin.php:65
+msgid "Search published content and manage assistant answers."
+msgstr ""
+
+#: Frontend.php:48
+msgid "Search results (AI unavailable)."
+msgstr ""
+
+#: Frontend.php:40
+msgid "Searching site materials…"
+msgstr ""
+
+#: Frontend.php:38
+msgid "Searching…"
+msgstr ""
+
+#: AdminGuide.php:76
+msgid ""
+"Select Custom, enter the provider’s public HTTPS API base URL and its own key, then enter "
+"compatible chat and embedding model IDs. The custom service must implement the chosen API "
+"endpoints; semantic search is optional. Private network endpoints and redirected requests are not"
+" supported by the safe WordPress HTTP client."
+msgstr ""
+
+#: AdminGuide.php:56
+msgid ""
+"Select OpenAI in the plugin, paste the key, and keep or choose a chat model. Suggested starting "
+"models:"
+msgstr ""
+
+#: AdminGuide.php:62
+msgid ""
+"Select OpenRouter, paste the key and use the full model identifiers from its catalog. Suggested "
+"starting models:"
+msgstr ""
+
+#: StudioAdmin.php:124
+msgid "Select provider"
+msgstr ""
+
+msgid "Select sources and save to preview the public site profile."
+msgstr ""
+
+#: StudioAdmin.php:133
+msgid "Selected API endpoint"
+msgstr ""
+
+#: AdminGuide.php:151 StudioAdmin.php:157
+msgid "Send technical metadata to ProxyAPI"
+msgstr ""
+
+#: AdminGuide.php:72
+msgid ""
+"Set a nonzero key budget suitable for your test. If necessary, restrict access to your server’s "
+"fixed outgoing IPv4 address, not the administrator’s or visitor’s IP. According to ProxyAPI "
+"documentation, the monthly budget is compared with total account spending for the calendar month."
+" Verify terms in your account before launch."
+msgstr ""
+
+#: AdminGuide.php:9
+msgid "Set up search on a new site"
+msgstr ""
+
+#: StudioAdmin.php:97
+msgid "Setting up search for the first time?"
+msgstr ""
+
+#: StudioAdmin.php:392
+msgid "Settings saved."
+msgstr ""
+
+#: StudioAdmin.php:25 StudioAdmin.php:37
+msgid "Setup guide"
+msgstr ""
+
+#: StudioAdmin.php:219
+msgid "Shortcode only"
+msgstr ""
+
+#: StudioAdmin.php:215
+msgid "Show the assistant on your site"
+msgstr ""
+
+#: Settings.php:122 StudioAdmin.php:24 StudioAdmin.php:65
+msgid "Site Search"
+msgstr ""
+
+#: Settings.php
+msgid ""
+"Site Search processes search queries locally. If dialogue memory is enabled, a one-day session "
+"cookie and temporary dialogue records are used. Optional logs retain queries and answer excerpts "
+"for the configured period. A hashed IP-based temporary counter limits requests. If external AI or"
+" semantic search is enabled, visitor queries and relevant public content are transmitted to the "
+"selected provider; AI answers may also use recent dialogue and administrator instructions. The "
+"site administrator must identify the provider, its privacy policy, actual retention settings and "
+"any applicable consent requirements before enabling external processing."
+msgstr ""
+
+#: StudioAdmin.php:191
+msgid "Site content indexing"
+msgstr ""
+
+#: StudioAdmin.php:219
+msgid "Site-wide floating button"
+msgstr ""
+
+#: StudioAdmin.php:107 StudioAdmin.php:270
+msgid "Sitemap"
+msgstr ""
+
+#: AdminGuide.php:191 StudioAdmin.php:199
+msgid "Sitemap URL"
+msgstr ""
+
+#: AdminGuide.php:370
+msgid "Sitemap fails to load"
+msgstr ""
+
+#: Indexer.php:94
+msgid "Sitemap indexing requires PHP SimpleXML."
+msgstr ""
+
+#: StudioAdmin.php:393
+msgid "Sitemap loaded and indexing queue started."
+msgstr ""
+
+#: web27-site-search.php:36
+msgid "Sitemap search"
+msgstr ""
+
+msgid "Source failed"
+msgstr ""
+
+msgid "Source unavailable"
+msgstr ""
+
+#: StudioAdmin.php:372
+msgid "Sources:"
+msgstr ""
+
+#: StudioAdmin.php:395
+msgid "Standard WordPress content synchronized."
+msgstr ""
+
+#: AdminGuide.php:165
+msgid "Standard providers have automatic API base URLs:"
+msgstr ""
+
+#: AdminGuide.php:42
+msgid ""
+"Start on a staging site. On a live site, before connecting paid AI, open Interface, disable "
+"Enable search and Enable public interface, then save. Disabling the UI alone does not disable "
+"REST. Background embeddings are controlled separately."
+msgstr ""
+
+#: StudioAdmin.php:200
+msgid "Start with 1–2 on shared hosting."
+msgstr ""
+
+#: StudioAdmin.php:97
+msgid ""
+"Step-by-step guide: provider keys, indexing, embeddings, appearance, limits and verification. "
+"Local search requires no key."
+msgstr ""
+
+#: StudioAdmin.php:195
+msgid "Stop queue"
+msgstr ""
+
+#: StudioAdmin.php:228
+msgid "Stored in a temporary transient, not a user profile."
+msgstr ""
+
+#: StudioAdmin.php:190
+msgid "Successful"
+msgstr ""
+
+#: Frontend.php:107
+msgid "Suggested questions"
+msgstr ""
+
+#: StudioAdmin.php:227
+msgid "Suggested questions — one per line"
+msgstr ""
+
+#: AdminGuide.php:392
+msgid "Supported countries and territories"
+msgstr ""
+
+#: AdminGuide.php:332
+msgid "Symptom"
+msgstr ""
+
+#: StudioAdmin.php:196
+msgid "Synchronize WordPress content"
+msgstr ""
+
+#: StudioAdmin.php:187
+msgid ""
+"Synchronize WordPress content for standard posts and pages. A sitemap is for additional public "
+"HTML pages; check your own sitemap."
+msgstr ""
+
+#: StudioAdmin.php:231
+msgid "System"
+msgstr ""
+
+#: StudioAdmin.php:104
+msgid "System status"
+msgstr ""
+
+#: AdminGuide.php:127 StudioAdmin.php:151
+msgid "Temperature"
+msgstr ""
+
+#: AdminGuide.php:393
+msgid "Terms"
+msgstr ""
+
+#: AdminGuide.php:402
+msgid "Terms:"
+msgstr ""
+
+#: AdminGuide.php:384
+msgid "Test AI"
+msgstr ""
+
+#: AdminGuide.php:414
+msgid ""
+"Test English and Russian with both interface locales, including a language change during a "
+"conversation and a request in a different language from the source. Cross-language retrieval "
+"quality is not guaranteed by interface translation."
+msgstr ""
+
+#: StudioAdmin.php:182
+msgid "Test an answer"
+msgstr ""
+
+#: Console.php:121
+msgid "Test answer model"
+msgstr ""
+
+#: Console.php:124
+msgid "Test embedding model"
+msgstr ""
+
+#: Console.php:143
+msgid "Test question"
+msgstr ""
+
+#: StudioAdmin.php:113
+msgid "Tests the entire pipeline: retrieval → local answer → AI (if configured) → sources → logs."
+msgstr ""
+
+msgid "Text color"
+msgstr ""
+
+#: Console.php:156
+msgid "Text indexing:"
+msgstr ""
+
+#: AdminGuide.php:318
+msgid "Text is readable, buttons work on mobile and desktop, and there is no theme conflict."
+msgstr ""
+
+msgid "Text only"
+msgstr ""
+
+#: AdminGuide.php:413
+msgid ""
+"The answer language is chosen independently from the interface: a substantive visitor question or"
+" explicit language request takes priority, then conversation history and page language. Local "
+"search quotes sources in their original language. English and Russian are supported; other "
+"languages fall back to English interface strings unless a translation is installed."
+msgstr ""
+
+#: Console.php:66
+msgid "The daily attempt limit has been reached."
+msgstr ""
+
+#: Console.php:125
+msgid ""
+"The embedding test sends one synthetic sentence and may incur a charge. It does not write vectors"
+" or enable background indexing."
+msgstr ""
+
+#: StudioAdmin.php:238
+msgid "The front end uses a consistent type scale: H2 via"
+msgstr ""
+
+msgid ""
+"The overview and background vectors cover up to 150 objects per source, 600 in total, with up to "
+"12 selected sources. Targeted text lookup can find additional matches when supported. Full "
+"semantic coverage of large catalogs is not yet available."
+msgstr ""
+
+#: Knowledge.php:112
+msgid "The provider returned an incomplete batch of vectors."
+msgstr ""
+
+#: Console.php:53
+msgid "The provider returned an unexpected or incomplete response. Check its configuration."
+msgstr ""
+
+#: Search.php:50
+msgid "The query is too long."
+msgstr ""
+
+#: AdminGuide.php:52
+msgid ""
+"The same plugin supports every provider in either interface language. Select a provider in AI and"
+" answers, click Select provider, then follow the corresponding steps below. Switching pauses "
+"automatic chat and embeddings; the previous connection profile is saved."
+msgstr ""
+
+#: AdminGuide.php:116
+msgid "The selected provider’s suggested or tested model"
+msgstr ""
+
+#: AdminGuide.php:160
+msgid "The selected provider’s tested embedding model"
+msgstr ""
+
+#: StudioAdmin.php:171
+msgid ""
+"These instructions are sent to the model with each AI request. Keep behavior rules here and "
+"service facts, prices and deadlines on public pages. Never add passwords or personal data."
+msgstr ""
+
+#: AdminGuide.php:11
+msgid "This guide does not change settings automatically."
+msgstr ""
+
+#: AdminGuide.php:409
+msgid ""
+"This guide is included in the installed plugin and does not need an external website or API key. "
+"Open Site Search → Setup guide, the Guide tab, or the Setup guide link in the installed plugins "
+"list. Administrator access is required."
+msgstr ""
+
+#: AdminGuide.php:63
+msgid ""
+"This integration uses Chat Completions. Check the selected model’s availability, costs, data "
+"policies and routing in your account."
+msgstr ""
+
+#: Console.php
+msgid ""
+"This passage preview uses local text matching only. Use the full query test for AI and semantic "
+"search."
+msgstr ""
+
+#: StudioAdmin.php:204
+msgid "Through sitemap and safe loopback HTTP."
+msgstr ""
+
+#: StudioAdmin.php:254
+msgid "Time"
+msgstr ""
+
+#: AdminGuide.php:410
+msgid ""
+"To change the administration and guide language, open Users → Profile → Language and select "
+"English or Russian, then save the profile. If Russian is unavailable, install it under Settings →"
+" General → Site Language. The public widget uses its own language setting, not the administrator "
+"profile language."
+msgstr ""
+
+#: AdminGuide.php:424
+msgid ""
+"To correct a specific query, first update inaccurate published content. Under Passages and "
+"vectors, find the relevant public passage and copy its numeric ID. Under Quality, enter the exact"
+" question and the passage ID, then click Pin. Pinning prioritizes that passage in standard "
+"WordPress retrieval; it does not train the model or guarantee the final answer. Use Unpin with "
+"the same question to remove the correction. Retest after editing or rebuilding passages."
+msgstr ""
+
+#: AdminGuide.php:423
+msgid ""
+"To review unsuccessful questions or negative ratings, enable logging deliberately under Logs and "
+"choose a retention period. The Quality tab shows up to 100 recent entries matching the selected "
+"filter. Do not use real personal information in tests."
+msgstr ""
+
+#: Search.php:54
+msgid "Too many requests. Please try again later."
+msgstr ""
+
+#: AdminGuide.php:131 StudioAdmin.php:152
+msgid "Top P"
+msgstr ""
+
+msgid "Top left"
+msgstr ""
+
+msgid "Top right"
+msgstr ""
+
+#: StudioAdmin.php:261
+msgid "Troubleshoot search"
+msgstr ""
+
+#: StudioAdmin.php:229
+msgid "Turn pairs"
+msgstr ""
+
+#. translators: 1: number of conversation turn pairs, 2: memory lifetime in
+#. minutes.
+#: StudioAdmin.php:110
+msgid "Turn pairs: %1$d · TTL: %2$d min."
+msgstr ""
+
+#: StudioAdmin.php:238
+msgid "Typography"
+msgstr ""
+
+#: StudioAdmin.php:219
+msgid "UI mode"
+msgstr ""
+
+#: StudioAdmin.php:191
+msgid "URLs are taken from"
+msgstr ""
+
+#: StudioAdmin.php:190
+msgid "URLs remaining"
+msgstr ""
+
+#: StudioAdmin.php:109
+msgid "UTC in the WordPress database."
+msgstr ""
+
+#: AdminGuide.php:69
+msgid "Under API keys, create a new key, for example"
+msgstr ""
+
+#: AdminGuide.php:43
+msgid ""
+"Under Settings → General, check the site name and tagline: the assistant uses them for greetings "
+"and an overview. Publish accurate information, contacts, prices (if applicable) and terms."
+msgstr ""
+
+#: Console.php:141
+msgid "Unpin"
+msgstr ""
+
+#: AdminGuide.php:74
+msgid ""
+"Use a separate key for each site. A key may support both chat and embeddings when the provider "
+"permits both. If exposed, revoke it with that provider and create a new key."
+msgstr ""
+
+#: Settings.php:126
+msgid ""
+"Use only relevant sources. Distinguish starting prices from final prices. If sources conflict, "
+"explain and suggest clarification."
+msgstr ""
+
+#: StudioAdmin.php:168
+msgid ""
+"Use the built-in rules and the universal instruction example. Keep site facts in published "
+"materials."
+msgstr ""
+
+#: AdminGuide.php:207 StudioAdmin.php:203
+msgid "User-Agent"
+msgstr ""
+
+#: AdminGuide.php:366
+msgid "Vector count is not increasing"
+msgstr ""
+
+#: Console.php:162
+msgid "Vector from another profile or model"
+msgstr ""
+
+#: AdminGuide.php:18
+msgid "Verification"
+msgstr ""
+
+#: AdminGuide.php:320
+msgid ""
+"Verify test charges and limits in the selected provider account. Update the site privacy policy "
+"before enabling external processing."
+msgstr ""
+
+msgid "Vertical list"
+msgstr ""
+
+msgid "Vertical offset, px"
+msgstr ""
+
+msgid ""
+"Virtual HTML pages participate in text search. Vectors cover standard posts/pages and selected "
+"additional knowledge sources when enabled. Public custom post types and taxonomies can be "
+"connected separately. Private accounts, page-builder fields, proprietary product metadata and "
+"JavaScript-only content require a suitable public connector. Do not include private or sensitive "
+"data in the sitemap."
+msgstr ""
+
+#: StudioAdmin.php:24
+msgid "WEB27 Site Search"
+msgstr ""
+
+#: AdminGuide.php:40
+msgid "WEB27 Site Search installation ZIP"
+msgstr ""
+
+#: web27-site-search.php:19
+msgid "WEB27 Site Search: enable the PHP mbstring extension to use search."
+msgstr ""
+
+#: AdminGuide.php:8
+msgid "WEB27 · GETTING STARTED"
+msgstr ""
+
+#: StudioAdmin.php:244
+msgid "What do you offer?"
+msgstr ""
+
+#: Console.php:69
+msgid "What is the name of the test material?"
+msgstr ""
+
+#: AdminGuide.php:333
+msgid "What to do"
+msgstr ""
+
+#: AdminGuide.php:169
+msgid ""
+"When a server API URL changes to a different endpoint, define a key for that endpoint explicitly."
+" The plugin will not send a stored key from a different endpoint."
+msgstr ""
+
+#: StudioAdmin.php:140
+msgid "When disabled, local fallback is used."
+msgstr ""
+
+#: StudioAdmin.php:139
+msgid ""
+"When embeddings are enabled, queries are sent to the selected provider for semantic search. The "
+"answer model receives the question, selected passages and possibly recent conversation turns. The"
+" key owner pays for requests."
+msgstr ""
+
+#: StudioAdmin.php:216
+msgid ""
+"When the theme supports inline integration, the floating button is disabled throughout that "
+"theme. To embed manually, use the shortcode"
+msgstr ""
+
+#: AdminGuide.php:41
+msgid ""
+"When upgrading, replace the existing plugin without uninstalling it. Uninstalling through "
+"WordPress removes settings and local data. Make a backup first."
+msgstr ""
+
+#: StudioAdmin.php:146
+msgid "Where do I get a key?"
+msgstr ""
+
+#: StudioAdmin.php:220
+msgid "Widget language"
+msgstr ""
+
+msgid "Window layout"
+msgstr ""
+
+msgid "Window width, px"
+msgstr ""
+
+#: AdminGuide.php:39
+msgid ""
+"WordPress 6.6+, PHP 8.1+, mbstring. XML/HTML crawling requires SimpleXML and DOM. Working WP-"
+"Cron, REST API and outgoing HTTPS access to the chosen gateway are needed; sitemap crawling also "
+"requires access to your own site."
+msgstr ""
+
+#: AdminGuide.php:276
+msgid ""
+"WordPress Settings → Privacy offers suggested privacy policy text from Site Search. Review and "
+"adapt it before publishing your privacy policy."
+msgstr ""
+
+#: StudioAdmin.php:158
+msgid ""
+"WordPress passages and queries are sent to the selected provider with separate permission. A "
+"custom gateway must support the embeddings endpoint."
+msgstr ""
+
+#: AdminGuide.php:85
+msgid "WordPress → Site Search → AI and answers."
+msgstr ""
+
+#: AdminGuide.php:212
+msgid "Yes"
+msgstr ""
+
+#: AdminGuide.php:96
+msgid "Yes (after setting a budget and providing data disclosure)"
+msgstr ""
+
+#: AdminGuide.php:239
+msgid ""
+"You are our team’s assistant. Help visitors understand published materials and find the right "
+"section. Speak naturally on behalf of the site. Do not invent prices, availability, deadlines, "
+"guarantees, specifications, addresses or capabilities. If information is missing, say so and ask "
+"one short clarifying question. Suggest only verified pages and actions. Never request passwords, "
+"card details or confidential information. If a question is unrelated to the site, offer to return"
+" to its subject."
+msgstr ""
+
+#: AdminGuide.php:192
+msgid "Your own site’s actual XML sitemap"
+msgstr ""
+
+#: AdminGuide.php:112
+msgid "Your secret key"
+msgstr ""
+
+#: AdminGuide.php:100
+msgid "Your selected provider"
+msgstr ""
+
+#: AdminGuide.php:67
+msgid "and register, then verify your email."
+msgstr ""
+
+#: AdminGuide.php:71
+msgid "and, if vectors are needed,"
+msgstr ""
+
+#: StudioAdmin.php:270
+msgid "check host"
+msgstr ""
+
+#: Console.php:156
+msgid "complete"
+msgstr ""
+
+#: StudioAdmin.php:108
+msgid "configured"
+msgstr ""
+
+#: StudioAdmin.php:269
+msgid "configured; test to verify connection"
+msgstr ""
+
+#: StudioAdmin.php:190
+msgid "current run"
+msgstr ""
+
+#: Console.php:156 StudioAdmin.php:110
+msgid "disabled"
+msgstr ""
+
+#: Console.php:156 StudioAdmin.php:110
+msgid "enabled"
+msgstr ""
+
+#: StudioAdmin.php:153
+msgid "high"
+msgstr ""
+
+#: AdminGuide.php:70
+msgid ""
+"immediately after creation. It is shown in full only once. Never expose it in client-side "
+"JavaScript, shortcodes, screenshots, correspondence or public archives."
+msgstr ""
+
+#: AdminGuide.php:252
+msgid ""
+"in a Shortcode block on the desired page. Standard themes will not display a separate floating "
+"button."
+msgstr ""
+
+#: StudioAdmin.php:108
+msgid "local mode"
+msgstr ""
+
+#: StudioAdmin.php:153
+msgid "low"
+msgstr ""
+
+#: StudioAdmin.php:153
+msgid "max"
+msgstr ""
+
+#: StudioAdmin.php:153
+msgid "medium"
+msgstr ""
+
+#: StudioAdmin.php:255 StudioAdmin.php:372
+msgid "ms"
+msgstr ""
+
+#: StudioAdmin.php:272
+msgid "no recent error"
+msgstr ""
+
+#: AdminGuide.php:136 StudioAdmin.php:153 StudioAdmin.php:190 StudioAdmin.php:267
+msgid "none"
+msgstr ""
+
+#: StudioAdmin.php:269
+msgid "not configured"
+msgstr ""
+
+#: StudioAdmin.php:271
+msgid "not scheduled"
+msgstr ""
+
+#: AdminGuide.php:181
+msgid "on your own domain; do not copy the example URL literally."
+msgstr ""
+
+#: AdminGuide.php:181
+msgid "or"
+msgstr ""
+
+#: Frontend.php:37
+msgid "page"
+msgstr ""
+
+#: StudioAdmin.php:191
+msgid "paused"
+msgstr ""
+
+#: Console.php:156
+msgid "queued"
+msgstr ""
+
+#: StudioAdmin.php:190
+msgid "ready for search"
+msgstr ""
+
+#: StudioAdmin.php:191
+msgid "running"
+msgstr ""
+
+#: StudioAdmin.php:270
+msgid "same-site"
+msgstr ""
+
+#: StudioAdmin.php:191
+msgid "stopped"
+msgstr ""
+
+#: AdminGuide.php:168
+msgid ""
+"switches the provider to custom; do not set it for a standard provider. The provider selector is "
+"locked while any connection constant is active. When migrating, check for old constants, "
+"including"
+msgstr ""
+
+#: Console.php:162
+msgid "text only"
+msgstr ""
+
+#: StudioAdmin.php:153
+msgid "xhigh"
+msgstr ""
+
+#: AdminGuide.php:181
+msgid ""
+"— use the actual same-host URL returning XML and HTTP 200 without redirection. For a custom "
+"sitemap, use its actual path, for example"
+msgstr ""
+

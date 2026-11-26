@@ -1,0 +1,32 @@
+.w27a .w27-guide{max-width:1100px;color:#1d2327;overflow-wrap:anywhere}
+.w27a .w27-guide .w27a-box{scroll-margin-top:48px}
+.w27a .w27-guide-intro{padding:clamp(18px,3vw,32px)}
+.w27a .w27-guide-kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#475467;margin-bottom:12px}
+.w27a .w27-guide-intro h2{font-size:clamp(30px,3.1vw,48px);line-height:1.04;font-weight:760;letter-spacing:-.04em;margin:0 0 16px}
+.w27a .w27-guide p,.w27a .w27-guide li{font-size:15px;line-height:1.65}
+.w27a .w27-guide .w27-guide-lead{font-size:16px;line-height:1.58;max-width:780px}
+.w27a .w27-guide-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,235px),1fr));gap:12px;margin-top:24px}
+.w27a .w27-guide-step{display:flex;flex-direction:column;gap:8px;padding:16px;border:1px solid #b8c6d3;border-radius:10px;text-decoration:none;color:#1d2327;background:#f8fafc;min-width:0}
+.w27a .w27-guide-step:hover{border-color:#2271b1;background:#edf6fc}
+.w27a .w27-guide-step span{font-size:11px;letter-spacing:.2em;color:#475467}
+.w27a .w27-guide-step strong,.w27a .w27-guide h3,.w27a .w27-guide-hint h2{font-size:16px;line-height:1.2;font-weight:720;margin:0}
+.w27a .w27-guide-step small{font-size:12px;line-height:1.5;color:#475467}
+.w27a .w27-guide-toc ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:6px 20px;margin:14px 0 0;list-style:none}
+.w27a .w27-guide-section h2{font-size:clamp(30px,3.1vw,48px);line-height:1.04;font-weight:760;letter-spacing:-.04em;margin:0 0 18px}
+.w27a .w27-guide-section h3{margin:24px 0 10px}
+.w27a .w27-guide-section ul,.w27a .w27-guide-section ol{padding-left:24px;margin:10px 0 18px}
+.w27a .w27-guide-section ul{list-style:disc}
+.w27a .w27-guide-section li{margin-bottom:6px}
+.w27a .w27-guide-table{overflow-x:auto;margin:18px 0;max-width:100%}
+.w27a .w27-guide-table table{min-width:0;table-layout:fixed}
+.w27a .w27-guide-table th,.w27a .w27-guide-table td{font-size:15px;line-height:1.6;padding:10px 12px;overflow-wrap:anywhere;vertical-align:top}
+.w27a .w27-guide-table th:first-child{width:38%}
+.w27a .w27-guide code,.w27a .w27-guide-hint code{white-space:normal;overflow-wrap:anywhere}
+.w27a .w27-guide blockquote{margin:16px 0;padding:8px 18px;background:#f5f7fa;border-left:3px solid #2271b1}
+.w27a .w27-guide .w27-guide-back{font-size:13px;margin:20px 0 0}
+.w27a .w27-guide-hint{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:#f8fafc;border:1px solid #b8c6d3;border-left:4px solid #2271b1;border-radius:10px;padding:16px 18px;margin:16px 0;color:#1d2327}
+.w27a .w27-guide-hint>div{flex:1 1 300px;min-width:0}
+.w27a .w27-guide-hint p{font-size:15px;line-height:1.6;margin:6px 0 0;overflow-wrap:anywhere}
+.w27a .w27-guide .button,.w27a .w27-guide-hint .button{font-size:14px;white-space:normal;height:auto;max-width:100%}
+.w27a .w27-guide a:focus-visible,.w27a .w27-guide-hint a:focus-visible{outline:2px solid #135e96;outline-offset:3px}
+@media(max-width:600px){.w27a .w27-guide-section{padding:16px}.w27a .w27-guide-table th,.w27a .w27-guide-table td{padding:8px}.w27a .w27-guide-hint{padding:14px}.w27a .w27-guide .w27a-box{scroll-margin-top:60px}}

@@ -1,0 +1,42 @@
+<?php
+require __DIR__.'/bootstrap.php';
+use WEB27\SiteSearch\{Language,Settings,Gateway,Knowledge,Welcome,Conversation};
+use function WEB27\SiteSearch\query;
+$n=0;
+function check($condition,$label){global $n;if(!$condition)throw new RuntimeException('FAIL '.$label);$n++;echo "PASS $label\n";}
+check(Settings::localized()['launcher_label']==='Site Search','EN default label');
+$GLOBALS['locale']='ru_RU';check(Settings::localized()['launcher_label']==='Умный поиск','RU default label');
+update_option(Settings::OPTION,['launcher_label'=>'Custom Ω','rag_answer_instructions'=>'Пиши по-русски.','api_key'=>'fixture-not-a-key','model'=>'fixture-model','suggestions'=>'Свои тексты']);
+$before=get_option(Settings::OPTION);$GLOBALS['locale']='en_US';check(Settings::localized()['launcher_label']==='Custom Ω','saved custom label remains EN');$GLOBALS['locale']='ru_RU';check(Settings::localized()['launcher_label']==='Custom Ω'&&get_option(Settings::OPTION)===$before,'locale change leaves saved options and prompt untouched');
+check(Language::withLocale(request('hello','en_US'),fn()=>get_locale())==='en_US'&&get_locale()==='ru_RU','REST locale switches and restores');
+check(Language::pageLocale(request('hello','zz_ZZ'))==='en_US','unknown locale fallback');
+try{Language::withLocale(request('hello','en_US'),fn()=>throw new RuntimeException('fixture'));}catch(RuntimeException $e){}check(get_locale()==='ru_RU','REST locale restored after exception');
+$history=[['role'=>'user','content'=>'Сколько стоит абонемент?'],['role'=>'assistant','content'=>'У нас есть абонемент.']];
+foreach([['What do you offer?',[],'ru_RU','en'],['Что вы предлагаете?',[],'en_US','ru'],['yes',$history,'en_US','ru'],['да',[['role'=>'user','content'=>'How much is delivery?']],'ru_RU','en'],['42',$history,'en_US','ru'],['AB-123',$history,'en_US','ru'],['https://example.test/',$history,'en_US','ru'],['Ответь на английском',$history,'ru_RU','en'],['Please reply in Russian',[],'en_US','ru'],['What is the price?', $history,'ru_RU','en'],['HI',[],'ru_RU','en'],['цена Pro',[],'en_US','ru']] as [$q,$h,$l,$want])check(Language::answerLanguage($q,$h,$l)===$want,'language: '.$q);
+foreach(['А сколько?','Подробнее','How much?','Tell me more','yes','Ответь на английском'] as $q)check(Language::isFollowup($q),'follow-up: '.$q);
+check(!Language::isFollowup('What is the new product?'),'standalone question is not a retrieval follow-up');
+foreach(['hello'=>'hello','thank you'=>'thanks','what do you offer'=>'overview','привет'=>'hello','спасибо'=>'thanks','что у вас есть'=>'overview'] as $q=>$want)check(Welcome::intent($q)===$want,'welcome intent '.$q);
+foreach(['https://example.test/resource/1/'=>true,'javascript:alert(1)'=>false,'http://example.test/'=>false,'https://example.test:444/'=>false,'https://user@example.test/'=>false,'https://other.test/'=>false] as $u=>$want)check(Settings::sameSiteUrl($u)===$want,'origin '.$u);
+update_option(Settings::OPTION,['enabled'=>true,'history_enabled'=>true,'rate_limit'=>120]);update_option('w27ss_cursor',-1);
+seed(1,'Atlas workshop','Atlas repairs cameras for 90 USD.');seed(2,'Мастерская Орион','Орион ремонтирует объективы за 2500 рублей.');seed(3,'Draft secret','SECRET-789 draft','draft');seed(4,'Private secret','SECRET-789 private','private');seed(5,'Protected secret','SECRET-789 protected','publish','secret');seed(6,'Unsupported CPT','SECRET-789 CPT','publish','','product');
+check(Knowledge::rank('Atlas',['page','post'])[0]['post_id']===1,'EN rank');check(Knowledge::rank('ОРИОН',['page','post'])[0]['post_id']===2,'RU rank case-insensitive');check(Knowledge::rank('SECRET-789',['page','post'])===[],'draft/private/password/CPT excluded in fixture');
+$_COOKIE['w27studio_session']='fixture-session-0000000001';
+$r=query(request('Atlas','en_US'));check($r->get_data()['sources'][0]['url']===home_url('/resource/1/')&&$r->get_data()['mode']==='local','local EN source');
+$r=query(request('А сколько?','en_US','Atlas'));check($r->get_data()['topic']==='Atlas'&&str_contains($r->get_data()['answer'],'Вот подходящий фрагмент'),'RU follow-up with original EN excerpt');
+$r=query(request('thank you','ru_RU'));check(str_starts_with($r->get_data()['answer'],'You’re welcome'),'EN gratitude independent of UI');
+$r=query(request('unknownzzz','ru_RU','',true));check($r->get_data()['mode']==='empty'&&count($r->get_data()['sources'])===0,'no fabricated result');
+check(count($GLOBALS['calls'])===0,'local mode makes no mock HTTP calls');
+update_option(Settings::OPTION,['enabled'=>true,'external_enabled'=>true,'api_key'=>'fixture-not-a-key','model'=>'fixture-model','daily_ai_budget'=>0,'history_enabled'=>true,'rate_limit'=>120,'rag_answer_instructions'=>'Пиши по-русски.']);
+$GLOBALS['mock_response']=['code'=>200,'body'=>json_encode(['choices'=>[['message'=>['content'=>'Example answer [page:1]']]],'usage'=>['prompt_tokens'=>10,'completion_tokens'=>5]])];
+$r=query(request('Atlas','en_US'));check($r->get_data()['mode']==='external_ai','Chat Completions mock success');
+$payload=json_decode(end($GLOBALS['calls'])['args']['body'],true);$system=$payload['messages'][0]['content'];$user=json_decode(end($payload['messages'])['content'],true);
+check(str_contains($system,'language rule overrides')&&str_contains($system,'untrusted data')&&str_contains($system,'Пиши по-русски.'),'neutral prompt + legacy override preserved with precedence');
+check($user['visitor_question']==='Atlas'&&$user['public_sources'][0]['id']===1&&$user['public_sources'][0]['url']===home_url('/resource/1/'),'structured grounded source contract');
+check(count($payload['messages'])>2,'rolling conversation sent to mock AI');
+foreach([['code'=>401,'body'=>'{}'],['code'=>429,'body'=>'{}'],['code'=>200,'body'=>'not json'],['code'=>200,'body'=>'{}'],new WP_Error('timeout','fixture')] as $response){$GLOBALS['mock_response']=$response;$r=query(request('Atlas','en_US'));check($r->get_data()['mode']==='local_fallback'&&str_contains($r->get_data()['answer'],'90 USD'),'gateway failure preserves local source '.(is_array($response)?$response['code'].' '.$response['body']:'timeout'));}
+$o=get_option(Settings::OPTION);$o['api_protocol']='responses';update_option(Settings::OPTION,$o);$GLOBALS['mock_response']=['code'=>200,'body'=>'{"output_text":"Fixture [page:1]","usage":{"input_tokens":4,"output_tokens":2}}'];
+$r=query(request('Atlas','en_US'));check($r->get_data()['mode']==='external_ai'&&str_contains(end($GLOBALS['calls'])['url'],'/responses'),'Responses mock success');
+$GLOBALS['mock_response']=['code'=>200,'body'=>'{"data":[{"index":0,"embedding":[3,4]}]}'];$v=Knowledge::embed(['fixture'],Settings::get());check(abs($v[0][0]-.6)<1e-9&&abs($v[0][1]-.8)<1e-9,'embedding normalization (mock)');
+$GLOBALS['mock_response']=['code'=>200,'body'=>'{"data":[{"index":0,"embedding":[0,0]}]}'];$failed=false;try{Knowledge::embed(['fixture'],Settings::get());}catch(RuntimeException $e){$failed=true;}check($failed,'reject zero embedding');
+update_option(Settings::OPTION,['enabled'=>false]);$r=Language::withLocale(request('Atlas','ru_RU'),fn()=>query(request('Atlas','ru_RU')));check(is_wp_error($r)&&$r->message==='Поиск выключен.','RU REST error');
+echo "TOTAL $n PASS (isolated fixture, not WordPress or live AI)\n";
