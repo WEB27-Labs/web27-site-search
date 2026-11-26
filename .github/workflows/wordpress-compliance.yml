@@ -1,0 +1,38 @@
+name: Official WordPress compliance checks
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  plugin-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          python3 scripts/build.py /tmp/web27-site-search.zip
+          unzip -q /tmp/web27-site-search.zip -d ./.build
+      - uses: wordpress/plugin-check-action@v1.0.6
+        with:
+          build-dir: './.build/web27-site-search'
+  coding-standards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, dom, simplexml, tokenizer, xmlwriter
+          tools: composer:v2
+          coverage: none
+      - name: Install WPCS outside the distributable tree
+        run: |
+          mkdir -p "$RUNNER_TEMP/wpcs"
+          cd "$RUNNER_TEMP/wpcs"
+          composer config --no-plugins allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
+          composer require --dev --no-interaction 'wp-coding-standards/wpcs:^3.0'
+      - name: Check exact shipped PHP files
+        run: |
+          python3 scripts/build.py /tmp/web27-site-search.zip
+          unzip -q /tmp/web27-site-search.zip -d "$RUNNER_TEMP/wpcs-build"
+          "$RUNNER_TEMP/wpcs/vendor/bin/phpcs" -ps --standard=WordPress --extensions=php "$RUNNER_TEMP/wpcs-build/web27-site-search"
