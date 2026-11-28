@@ -21,7 +21,7 @@ for path in sorted(root.glob('*.php')) + sorted((root / 'tests').glob('*.php')):
     run('php', '-l', path.relative_to(root))
 for path in sorted((root / 'assets').glob('*.js')):
     run('node', '--check', path.relative_to(root))
-for name in ('smoke', 'providers', 'admin-providers', 'design', 'language', 'embedding-cron', 'final-security', 'universal', 'submission'):
+for name in ('smoke', 'providers', 'admin-providers', 'design', 'language', 'embedding-cron', 'final-security', 'universal', 'submission', 'schema-compatibility'):
     run('php', f'tests/{name}.php')
 for mode in ('different', 'same', 'explicit'):
     run('php', 'tests/server-constants.php', mode)

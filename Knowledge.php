@@ -6,17 +6,19 @@ final class Knowledge {
     static function table(): string { global $wpdb; return $wpdb->prefix.'w27ss_chunks'; }
     static function log(): string { global $wpdb; return $wpdb->prefix.'w27ss_questions'; }
     static function install(): void {
-        if (get_option('w27ss_schema')==='2') { return; }
+        $schema=get_option('w27ss_schema');
+        if ($schema==='3') { return; }
         global $wpdb;
         require_once ABSPATH.'wp-admin/includes/upgrade.php';
         $collate=$wpdb->get_charset_collate();
         $chunks=self::table(); $log=self::log();
+        $hadChunks=$wpdb->get_var($wpdb->prepare('SHOW TABLES LIKE %s',$wpdb->esc_like($chunks)))===$chunks;
         dbDelta("CREATE TABLE $chunks (
  id bigint unsigned NOT NULL AUTO_INCREMENT,
  post_id bigint unsigned NOT NULL,
  fingerprint char(64) NOT NULL,
  body text NOT NULL,
- vector longtext NULL,
+ `vector` longtext NULL,
  model varchar(150) NOT NULL DEFAULT '',
  PRIMARY KEY  (id),
  UNIQUE KEY source (post_id,fingerprint)
@@ -31,8 +33,10 @@ final class Knowledge {
  PRIMARY KEY  (id),
  KEY created (created)
 ) $collate;");
-        update_option('w27ss_schema','2',false);
-        update_option('w27ss_cursor',0,false);
+        if ($wpdb->get_var($wpdb->prepare('SHOW TABLES LIKE %s',$wpdb->esc_like($chunks)))!==$chunks ||
+            $wpdb->get_var($wpdb->prepare('SHOW TABLES LIKE %s',$wpdb->esc_like($log)))!==$log) { return; }
+        update_option('w27ss_schema','3',false);
+        if (!$hadChunks || get_option('w27ss_cursor',false)===false) { update_option('w27ss_cursor',0,false); }
     }
     static function publicPost($p): bool {
         return $p instanceof \WP_Post && $p->post_status==='publish' && $p->post_password==='' &&

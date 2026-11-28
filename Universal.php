@@ -24,7 +24,7 @@ final class Universal {
         dbDelta("CREATE TABLE $table (
  fingerprint char(64) NOT NULL,
  model char(64) NOT NULL,
- vector longtext NOT NULL,
+ `vector` longtext NOT NULL,
  updated datetime NOT NULL,
  PRIMARY KEY  (fingerprint,model),
  KEY updated (updated)
@@ -165,7 +165,7 @@ final class Universal {
         if(!$rows||get_option(self::SCHEMA)!=='1'){return [];}
         global $wpdb; $out=[];
         foreach(array_chunk(array_column($rows,'fingerprint'),100) as $hashes){
-            $sql=($keysOnly?'SELECT fingerprint':'SELECT fingerprint,vector').' FROM %i WHERE model=%s AND fingerprint IN ('.implode(',',array_fill(0,count($hashes),'%s')).')';
+            $sql=($keysOnly?'SELECT fingerprint':'SELECT fingerprint,`vector`').' FROM %i WHERE model=%s AND fingerprint IN ('.implode(',',array_fill(0,count($hashes),'%s')).')';
             foreach((array)$wpdb->get_results($wpdb->prepare($sql,self::table(),self::model($o),...$hashes)) as $row){$out[$row->fingerprint]=$keysOnly?true:$row->vector;}
         }
         return $out;

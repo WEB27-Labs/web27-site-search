@@ -20,7 +20,7 @@ function plugin_dir_url($f){return home_url('/wp-content/plugins/'.basename(dirn
 function add_query_arg($k,$v=null,$u=null){if(is_array($k)){$a=$k;$u=$v;}else{$a=[$k=>$v];}return $u.(str_contains($u,'?')?'&':'?').http_build_query($a);}
 class UniversalDB extends FixtureDB {
  public array $vectors=[];public int $writes=0;
- function get_results($q){[$sql,$args]=$q;if((str_contains($sql,'SELECT fingerprint,vector')||str_contains($sql,'SELECT fingerprint FROM'))){return array_values(array_filter($this->vectors,fn($r)=>$r->model===$args[1]&&in_array($r->fingerprint,array_slice($args,2),true)));}return parent::get_results($q);}
+ function get_results($q){[$sql,$args]=$q;if((str_contains($sql,'SELECT fingerprint,`vector`')||str_contains($sql,'SELECT fingerprint FROM'))){return array_values(array_filter($this->vectors,fn($r)=>$r->model===$args[1]&&in_array($r->fingerprint,array_slice($args,2),true)));}return parent::get_results($q);}
  function replace($table,$data){$this->writes++;$this->vectors[$data['fingerprint'].$data['model']]=(object)$data;return 1;}
 }
 $n=0;function check($ok,$label){global $n;if(!$ok){throw new RuntimeException('FAIL '.$label);}$n++;echo "PASS $label\n";}
